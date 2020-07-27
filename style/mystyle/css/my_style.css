@@ -1597,9 +1597,11 @@ textarea {
 
 }
 
-.kuryer_form label {
-    width: 34px;
-    height: 10px;
+.kuryer_form {
+    margin-top: 50px;
+}
+
+.kuryer_form input::placeholder {
     font-family: Kanit !important;
     font-style: normal;
     font-weight: normal;
@@ -1633,7 +1635,8 @@ textarea {
 
 .baglamalarisecin {
     /* width: 430px;
-    height: 244px; */
+    */
+    height: 244px;
     background: #FFFFFF;
     /* Shadow */
 
@@ -1642,6 +1645,7 @@ textarea {
 }
 
 .baglamalarisecin_btn {
+
     width: 176px;
     height: 48px;
     outline: none;
@@ -1682,7 +1686,7 @@ textarea {
 .kuryersifariset_btn {
     outline: none;
     border: none;
-
+    margin: 23px 15px;
     width: 176px;
     height: 48px;
     /* Color */
