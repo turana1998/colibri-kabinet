@@ -1893,6 +1893,21 @@ textarea {
     color: #FFFFFF;
 }
 
+.qeydiyat_label,
+.qeydiyat_input[value] .qeydiyat_input_col6[value],
+.qeydiyat_input_col9[value] {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #8F9F97;
+}
+
 .qeydiyyat {
     position: absolute;
     width: 96px;
@@ -1995,7 +2010,6 @@ textarea {
 
 .qeydiyat_input {
     width: 192px;
-    height: 55px;
     border: none;
     background-color: transparent;
     border-bottom: 1px solid #FFFFFF;
@@ -2003,7 +2017,6 @@ textarea {
 
 .qeydiyat_input_col6 {
     width: 394px;
-    height: 55px;
     border: none;
     background-color: transparent;
     border-bottom: 1px solid #FFFFFF;
@@ -2011,7 +2024,6 @@ textarea {
 
 .qeydiyat_input_col9 {
     width: 596px;
-    height: 55px;
     border: none;
     background-color: transparent;
     border-bottom: 1px solid #FFFFFF;
@@ -2019,22 +2031,4 @@ textarea {
 
 .modal-header {
     border: none !important;
-}
-
-.form_qeydiyyat .form-control,
-.form_qeydiyyat .qeydiyat_input::placeholder,
-.qeydiyat_input_col9::placeholder,
-.qeydiyat_input_col6::placeholder,
-.form_qeydiyyat select option {
-    font-family: Kanit;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-
-    /* White */
-
-    color: #FFFFFF !important;
 }
