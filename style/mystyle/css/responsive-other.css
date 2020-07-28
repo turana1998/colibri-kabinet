@@ -57,10 +57,10 @@
 }
 
 @media screen and (max-width: 576px) {
-    .logo {
+    /* .logo {
         width: 60px !important;
         height: 25px !important;
-    }
+    } */
 
     .nav-link {
         padding: 0;
@@ -86,7 +86,7 @@
 }
 
 
-.logo {
+/* .logo {
     width: 86px;
     height: 32px;
-}
+} */
