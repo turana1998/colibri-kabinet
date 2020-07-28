@@ -105,6 +105,10 @@
 
 
 @media (max-width: 768px) {
+    .navbar {
+        border: none;
+    }
+
     .navbar-collapse {
         margin-left: -15px;
         margin-top: -23px;
