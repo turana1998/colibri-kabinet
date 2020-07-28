@@ -403,6 +403,18 @@ body {
     flex-direction: column;
 }
 
+.phone-numbers span {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* Main color */
+
+    color: #57606F;
+}
+
 hr {
     border: 1px solid #E7ECF2;
     margin: 0 0 0 11px;
@@ -632,8 +644,18 @@ textarea {
 
 .nav-linkk:hover {
     text-decoration: none;
-    color: white;
+    color: #F16136;
 }
+
+.nav-linkk:active {
+    text-decoration: none;
+    color: #F16136;
+}
+
+/* .nav-linkk:visited {
+    text-decoration: none;
+    color: #F16136;
+} */
 
 .nav-items {
     margin-top: 10px;
