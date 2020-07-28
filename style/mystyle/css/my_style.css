@@ -877,7 +877,7 @@ textarea {
 }
 
 #country {
-    width: 250px;
+    width: 300px;
     margin-top: -50px !important;
 }
 
@@ -1764,7 +1764,7 @@ textarea {
 
 .sifarisetinforpink {
 
-    width: 100%;
+    width: 90%;
     min-height: 154px;
     background: #FCD9CF;
     border-radius: 8px;
@@ -1790,6 +1790,7 @@ textarea {
 }
 
 .sifarisetinforblue {
+    width: 90%;
     min-height: 58px;
     margin-top: 10px;
     background: #C2EAFF;
@@ -1847,6 +1848,10 @@ textarea {
     /* Color */
 
     color: #F16136;
+}
+
+.formsifariset {
+    width: 90%;
 }
 
 .formsifariset button {
