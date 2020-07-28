@@ -105,6 +105,91 @@
 
 
 @media (max-width: 768px) {
+    .sifaris_redakte tr {
+        margin-bottom: 0px !important;
+        border: none;
+
+    }
+
+    .sifaris_redakte td:last-child {
+
+
+        border-bottom-width: 0px;
+        display: flex;
+
+
+
+
+    }
+
+    .sifaris_redakte td {
+        /* Behave  like a "row" */
+        border: none;
+
+        position: relative;
+        padding-left: 0 !important;
+        min-height: 50px;
+        border-bottom: 0.7px solid #D8E0E9;
+
+
+    }
+
+    .sifaris_redakte_modal thead tr {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .sifaris_redakte td:before {
+        /* Now like a table header */
+
+        content: none;
+    }
+
+    .sifaris_redakte .table {
+        width: 300px !important;
+    }
+
+    .sifaris_redakte .table_head {
+        width: 300px !important;
+        height: 44px;
+        background: #EAEAEA;
+    }
+
+    .sifaris_redakte_modal .table th {
+        font-family: Kanit;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px !important;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #57606F;
+    }
+
+    /* 
+    .sifaris_redakte_modal .table td,
+    .sifaris_redakte_modal thead,
+    .sifaris_redakte_modal tr {
+        display: table-cell !important;
+    } */
+
+    .sifaris_redakte_modal tr {
+        display: flex !important;
+    }
+
+    .sifaris_redakte {
+        width: 346px !important;
+        height: 464px !important;
+        margin-left: 0px !important;
+    }
+
+    .sifaris_redakte_header {
+        width: 322px !important;
+        height: 76px !important;
+    }
+
     .navbar {
         border: none;
     }
