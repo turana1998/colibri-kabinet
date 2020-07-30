@@ -1317,6 +1317,7 @@ textarea {
 #table_sifaris {
     /* margin-top: 40px; */
     margin-bottom: 40px;
+    border-radius: 33px;
 
 
 }
@@ -1325,6 +1326,7 @@ textarea {
     overflow-y: scroll;
     height: 300px;
     margin-top: 20px;
+    border-radius: 25px;
 }
 
 .tablescrool table th {
