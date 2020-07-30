@@ -1,3 +1,33 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit/Kanit-Regular.ttf);
+}
+
+@media(max-width:1348px) {
+    .footerdiv p {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:1208px) {
+    .footerdiv p {
+        font-size: 11px;
+    }
+
+}
+
+@media(max-width:1280px) {
+    .top_radio {
+        top: 38px !important;
+    }
+
+    .top-image img {
+
+        margin-top: -60px !important;
+    }
+}
+
 @media (max-width:1920px) and (min-width:1800px) {
     .radiobtn_hr {
         width: 470px !important;
@@ -258,6 +288,11 @@
 }
 
 @media only screen and (max-width:768px) {
+    .table img {
+        width: 14px;
+        height: 14px;
+    }
+
     body {
         overflow-x: hidden;
     }
@@ -376,7 +411,6 @@
     }
 
     .xariciunvan_btn {
-        width: 86px;
         font-size: 14px;
         padding: 10px 3px;
     }
@@ -431,10 +465,19 @@
 
     .sifarisetinforpink {
         padding: 0px !important;
-        position: relative;
+        width: 100%;
+        background-image: url(../img/pinkbg.png);
+        background-repeat: no-repeat;
+        background-position: right;
         top: 100px;
         z-index: 110;
     }
+
+    .sifarisetinforblue {
+        width: 100%;
+    }
+
+    .selectator_element.single {}
 
     .sifarisetinforpink p {
         text-align: center;
@@ -496,6 +539,7 @@
     }
 
     .order-list input {
+
         display: inline-block !important;
         width: 20px;
         height: 20px;
@@ -631,7 +675,7 @@
         display: block;
     }
 
-    .xariciunvan_inform {
+    #xariciunvan_inform {
         display: none;
     }
 
@@ -696,6 +740,7 @@
 
     .order-list {
         display: block;
+        padding-left: 15px;
     }
 
 }
@@ -721,6 +766,9 @@
 }
 
 @media (max-width:768px) {
+    .col-qalan-hisse {
+        width: 100% !important;
+    }
 
     .olkeler {
         width: 100%;

@@ -163,34 +163,15 @@
             <li><a href="">Əlaqə</a></li>
         </ul>
     </div>
-    <!-- <div class="mobile-right-navbar p-3" style="display: none;" >
-    <div class="nav-line d-flex mt-2"> 
-       <img src="style/mystyle/img/bird.png">
-   </div>
-   <ul class="mx-auto">
-    <li><a href="">Xarici ünvanlarım</a></li>
-    <li><a href="">Bağlamalarım</a></li>
-    <li><a href="">Sifarişlərim</a></li>
-    <li><a href="">Kuryer sifarişlərim</a></li>
-    <li><a href="">Referal hesablar</a></li>
-    <li><a href="">Tənzimləmələr</a></li>
-    <li><a href="">Çıxış</a></li>
-    
-</ul> 
-<hr class="bottom-line">    
-</div> -->
     <div class="container xarici_unvanlar ">
         <div class="row">
-            <div class="col-lg-3 col-xl-2 private-account-nav"
-                style="background: #223F2E !important; height:700px;border-radius: 8px;width: 255px;">
-                <nav class="navbar navs navbar-expand-lg navbar-light bg-light">
-
-
+            <div class=" col-yasil-nav private-account-nav">
+                <nav class="navbar navs navbar-expand-lg navbar-light bg-light" style="border-radius: 8px;">
                     <div class="collapse navbar-collapse d-flex flex-column my-top-0" id="navbarSupportedContent2"
                         style="margin-top: 400px;">
                         <h5 class="sexsi_kabinet_title beNone">ŞƏXSİ KABİNET</h5>
                         <div class="user_image beNone">
-                            <div class="img-plus"><i class="fas fa-plus  mytxtcolor"></i></div>
+                            <div class="img-plus"><img src="style/mystyle/img/add.png"></div>
                             <img src="style/mystyle/img/user.png">
                         </div>
                         <p class="sexsi_kabinet_p beNone">Name Surname</p>
@@ -207,7 +188,7 @@
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-baglm.png"></i>
-                                <a class="nav-linkk" href="baglamalarimTAMDEШL.html">Bağlamalarım</a>
+                                <a class="nav-linkk" href="baglamalarim.html">Bağlamalarım</a>
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-sifaris.png"></i>
@@ -225,73 +206,28 @@
 
                         </ul>
                         <hr class=" bottom-line">
-                        <div class="balans d-flex flex-row justify-content-between w-100">
+                        <div class="balans d-flex flex-row ">
                             <p class="money">Balans:<span>&nbsp&nbsp123</span>AZN</p>
-                            <img class="ml-4" src="style/mystyle/img/add.png" alt="">
+                            <a href="balans.html">
+                                <img class="ml-4" src="style/mystyle/img/addbalans.png" alt="">
+                            </a>
                         </div>
                         <h5 class="sexsi_kabinet_news mb-3">SON 30 GÜN</h5>
-                        <div class="d-flex flex-row" style="">
-                            <span style="
-        width: 14px;
-        height: 14px; font-family: San Francisco;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.2px;
-
-        /* White */
-        color: #FFFFFF;
-        ">$</span>
-                            <div class="progress" style=" width: 145px !important;
-        height: 26px;border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 13px;background-color: transparent;position: relative;">
-                                <span style="position: absolute;
-        font-family: San Francisco;
-        font-style: normal;
-        text-align: center;
-        font-weight: normal;
-        padding: 3px 0px 0 0;
-        font-size: 14px;
-        line-height: 17px;
-        color: #FFFFFF;
-        
-        "> <span style="position: absolute;left: 5px">0</span>
+                        <div class="d-flex flex-row">
+                            <span class="dollar_isaresi">$</span>
+                            <div class="progress">
+                                <span class="bos_span">
+                                    <span style="position: absolute;left: 5px">0</span>
                                     <span style="position: relative;left:70px">622</span></span>
-                                <img src="style/mystyle/img/progress_bar.png" style="position: ;" alt="">
-                                <span style="
-    font-family: San Francisco;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    padding: 3px 0px 0 0;
-    color: #FFFFFF;
-    position: absolute;
-    right: 0px;
-    "> 1000</span>
+                                <img src="style/mystyle/img/progress_bar.png" alt="">
+                                <span class="progress_last_number"> 1000</span>
                             </div>
                         </div>
-                        <a href="# " style="
-width: 60px;
-height: 10px;
-font-family: San Francisco;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-align-items: center;
-text-align: center;
-margin-top: 10px;
-/* White */
-color: #FFFFFF;
-">Ətraflı</a>
+                        <a class="etrafli_link" href="baglamalarim.html">Ətraflı</a>
                     </div>
                 </nav>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-10">
+            <div class="col-qalan-hisse">
                 <div class="row">
                     <div class="kuryersifariset">
                         <h3 class="kuryer_title">KURYER SİFARİŞ ET</h3>
@@ -299,7 +235,7 @@ color: #FFFFFF;
                             <div class="row">
                                 <div class="form-group col-md-6 col-xl-6 w-100">
                                     <!-- <label for="erazi">Ərazi</label> -->
-                                    <input type="text" class=" w-100" id="erazi" placeholder="Ərazi">
+                                    <input type="text" class=" " id="erazi" placeholder="Ərazi" style="width: 80%;">
                                 </div>
                                 <div class="form-group col-md-6 col-xl-6 w-100">
                                     <!-- <label for="metro"></label> -->
@@ -314,9 +250,10 @@ color: #FFFFFF;
 
                                 <div class="form-group col-md-6 col-xl-6">
                                     <!-- <label for="tel">Telefon</label> -->
-                                    <input type="text" class="customRadioCs w-100" id="tel" placeholder="Telefon">
+                                    <input type="text" class="customRadioCs " id="tel" placeholder="Telefon"
+                                        style="width: 80%;">
                                 </div>
-                                <div class="form-group col-md-6 col-xl-6">
+                                <div class=" form-group col-md-6 col-xl-6">
                                     <!-- <label for="tarix">Tarix</label> -->
                                     <input class="customRadioCs  w-100" type="text" class="form-control" id="tarix"
                                         placeholder="Tarix">
@@ -328,10 +265,10 @@ color: #FFFFFF;
                             <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                                 <h3 class="kuryer_title_col6">Xaricdən çatdırılmanın ödəniş növü:</h3>
                                 <div class="custom-control custom-radio mt-4 d-flex" style="flex-direction: row;
-                    justify-content: space-between;padding-left: 0 !important;">
+                    justify-content: space-between;padding-left: 0 !important;width: 80%;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 1 1.png">
-                                        <label for="customRadio1">Onlayn <span> ödəmə</span></label>
+                                        <label for="customRadio1">Onlayn</label>
                                     </div>
                                     <div>
                                         <input class="customRadioCs" type="radio" id="customRadio1" name="customRadio">
@@ -339,10 +276,10 @@ color: #FFFFFF;
 
                                 </div>
                                 <div class="custom-control custom-radio mt-4 d-flex" style="flex-direction: row;
-                justify-content: space-between;padding-left: 0 !important;">
+                justify-content: space-between;padding-left: 0 !important;width: 80%;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 2 1.png">
-                                        <label for="customRadio2">Nəğd <span> ödəmə</span></label>
+                                        <label for="customRadio2">Nəğd</label>
                                     </div>
                                     <div>
                                         <input class="customRadioCs" type="radio" id="customRadio2" name="customRadio">
@@ -350,10 +287,10 @@ color: #FFFFFF;
 
                                 </div>
                                 <div class="custom-control custom-radio mt-4 d-flex" style="flex-direction: row;
-            justify-content: space-between;padding-left: 0 !important;">
+            justify-content: space-between;padding-left: 0 !important;width: 80%;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 3 1.png">
-                                        <label for="customRadio3">POS-Terminal <span>vasitəsilə ödəmə</span></label>
+                                        <label for="customRadio3">POS-Terminal vasitəsilə</label>
                                     </div>
                                     <div>
                                         <input class="customRadioCs" type="radio" id="customRadio3" name="customRadio">
@@ -369,8 +306,9 @@ color: #FFFFFF;
         justify-content: space-between;padding-left: 0 !important;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 1 1.png">
-                                        <label for="customRadio4">Onlayn <span>ödəmə</span</label> </div> <div>
-                                                <input type="radio" id="customRadio4" name="customRadio">
+                                        <label for="customRadio4">Onlayn</label> </div>
+                                    <div>
+                                        <input type="radio" id="customRadio4" name="customRadio">
                                     </div>
 
                                 </div>
@@ -378,7 +316,7 @@ color: #FFFFFF;
     justify-content: space-between;padding-left: 0 !important;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 2 1.png">
-                                        <label for="customRadio5">Nəğd <span>ödəmə</span></label>
+                                        <label for="customRadio5">Nəğd</label>
                                     </div>
                                     <div>
                                         <input type="radio" id="customRadio5" name="customRadio">
@@ -389,7 +327,7 @@ color: #FFFFFF;
 justify-content: space-between;padding-left: 0 !important;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 3 1.png">
-                                        <label for="customRadio6">POS-Terminal <span> vasitəsilə ödəmə </span></label>
+                                        <label for="customRadio6">POS-Terminal vasitəsilə </label>
                                     </div>
                                     <div>
                                         <input type="radio" id="customRadio6" name="customRadio">
@@ -401,7 +339,7 @@ justify-content: space-between;padding-left: 0 !important;">
                             </div>
                             <div class="col-xl-6 col-12 ml-auto">
                                 <div class="baglamalarisecin pl-3 mt-3">
-                                    <div class="d-flex justify-content-around">
+                                    <div class="d-flex" style="justify-content: space-between;">
                                         <button class="baglamalarisecin_btn mt-3">Bağlamaları seçin</button>
                                         <div class="custom-control custom-radio custom-control-inline mt-4 ">
                                             <input type="radio" id="customRadioInline1" name="customRadioInline1"
@@ -410,7 +348,14 @@ justify-content: space-between;padding-left: 0 !important;">
                                                 for="customRadioInline1">Təcili
                                                 çatdırılma</label>
 
-                                            <img style="height: 16px;width: 10px;" class="ml-3"
+                                            <img style="height: 18px;
+                                            width: 17px;
+                                            padding: 2px;
+                                            /* border: 2px solid; */
+                                            border: 2px solid;
+                                            border: #F16136;
+                                            border-radius: 50%;
+                                            border: 2px solid  #F16136;" class="ml-3"
                                                 src="style/mystyle/img/question.png">
                                         </div>
                                     </div>
@@ -434,37 +379,37 @@ justify-content: space-between;width: 93%;">
                     </div>
                     <div class="footer">
                         <div class="row">
-                            <div class="col-xl-2 ">
+                            <div class="cols ">
                                 <div class="footerdiv ">
                                     <img src="style/mystyle/img/clock.png" alt="">
                                     <p>BAKU TIME: 10:13</p>
                                 </div>
                             </div>
-                            <div class="col-xl-2">
+                            <div class="cols">
                                 <div class="footerdiv">
                                     <img src="style/mystyle/img/clock.png" alt="">
                                     <p>ISTANBUL TIME: 10:13</p>
                                 </div>
                             </div>
-                            <div class="col-xl-2">
+                            <div class="cols">
                                 <div class="footerdiv">
                                     <img src="style/mystyle/img/clock.png" alt="">
                                     <p>WILMINGTON TIME: 9:12</p>
                                 </div>
                             </div>
-                            <div class="col-xl-2">
+                            <div class="cols">
                                 <div class="footerdiv">
                                     <img src="style/mystyle/img/clock.png" alt="">
                                     <p>FRANKFURT TIME: 9:12</p>
                                 </div>
                             </div>
-                            <div class="col-xl-2">
+                            <div class="cols">
                                 <div class="footerdiv">
                                     <img src="style/mystyle/img/clock.png" alt="">
                                     <p>DUBAI TIME: 11:13</p>
                                 </div>
                             </div>
-                            <div class="col-xl-2">
+                            <div class="cols">
                                 <div class="footerdiv">
                                     <img src="style/mystyle/img/clock.png" alt="">
                                     <p>LONDON TIME: 11:13</p>
@@ -477,7 +422,82 @@ justify-content: space-between;width: 93%;">
         </div>
 
     </div>
+    <div class="modal fade" id="beyanet_xariciunvan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content xarici_unvanlar_beyan">
+                <div class="modal-header xarici_unvanlar_beyan_header">
+                    <h5 class="modal-title" id="exampleModalLabel">ÖNCƏDƏN BƏYAN ET</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="style/mystyle/img/modal-none.png" style="color: #FFFFFF;">
+                    </button>
+                </div>
+                <div class="modal-body xarici_unvanlar_beyan_modal">
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Tracking ID" placeholder="Tracking ID">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Mağazanın/saytın adı"
+                                    placeholder="Mağazanın/saytın adı">
+                            </div>
+                            <div class="form-group">
+                                <select class="custom-select">
+                                    <option selected>Kateqoriya</option>
+                                    <option>Kateqoriya</option>
+                                    <option>Kateqoriya</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Məhsulun adı" placeholder="Məhsulun adı">
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="form-control"
+                                    aria-label="Text input with segmented dropdown button">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-outline-secondary">TL</button>
+                                    <button type="button"
+                                        class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div role="separator" class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">İnvoys fayl:</label>
+                                <div class="input-group mb-3">
 
+                                    <div class="custom-file">
+                                        <label class="custom-file-label" for="inputGroupFile01">Choose File</label>
+                                        <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                            aria-describedby="inputGroupFileAddon01">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Əlavə qeyd:</label>
+                                <textarea class="form-control" id="message-text" rows="5"></textarea>
+                            </div>
+                            <button class="xarici_unvanlar_beyan_btn" type="button" class="btn btn-primary">Save
+                                changes</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <script src="./style/bootstrap/jquery/jquery-3.4.1.min.js"></script>
     <script src="./style/bootstrap/jquery/popper.min.js"></script>
     <script src="./style/slick/slick.min.js"></script>

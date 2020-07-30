@@ -181,16 +181,13 @@
 </div> -->
     <div class="container xarici_unvanlar ">
         <div class="row">
-            <div class="col-lg-3 col-xl-2 private-account-nav"
-                style="background: #223F2E !important; height:700px;border-radius: 8px;width: 255px;">
-                <nav class="navbar navs navbar-expand-lg navbar-light bg-light">
-
-
+            <div class="col-yasil-nav private-account-nav">
+                <nav class="navbar navs navbar-expand-lg navbar-light bg-light" style="border-radius: 8px;">
                     <div class="collapse navbar-collapse d-flex flex-column my-top-0" id="navbarSupportedContent2"
                         style="margin-top: 400px;">
                         <h5 class="sexsi_kabinet_title beNone">ŞƏXSİ KABİNET</h5>
                         <div class="user_image beNone">
-                            <div class="img-plus"><i class="fas fa-plus  mytxtcolor"></i></div>
+                            <div class="img-plus"><img src="style/mystyle/img/add.png"></div>
                             <img src="style/mystyle/img/user.png">
                         </div>
                         <p class="sexsi_kabinet_p beNone">Name Surname</p>
@@ -207,7 +204,7 @@
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-baglm.png"></i>
-                                <a class="nav-linkk" href="baglamalarimTAMDEШL.html">Bağlamalarım</a>
+                                <a class="nav-linkk" href="baglamalarim.html">Bağlamalarım</a>
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-sifaris.png"></i>
@@ -225,88 +222,42 @@
 
                         </ul>
                         <hr class=" bottom-line">
-                        <div class="balans d-flex flex-row justify-content-between w-100">
+                        <div class="balans d-flex flex-row ">
                             <p class="money">Balans:<span>&nbsp&nbsp123</span>AZN</p>
-                            <img class="ml-4" src="style/mystyle/img/add.png" alt="">
+                            <a href="balans.html">
+                                <img class="ml-4" src="style/mystyle/img/addbalans.png" alt="">
+                            </a>
                         </div>
                         <h5 class="sexsi_kabinet_news mb-3">SON 30 GÜN</h5>
-                        <div class="d-flex flex-row" style="">
-                            <span style="
-        width: 14px;
-        height: 14px; font-family: San Francisco;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.2px;
-
-        /* White */
-        color: #FFFFFF;
-        ">$</span>
-                            <div class="progress" style=" width: 145px !important;
-        height: 26px;border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 13px;background-color: transparent;position: relative;">
-                                <span style="position: absolute;
-        font-family: San Francisco;
-        font-style: normal;
-        text-align: center;
-        font-weight: normal;
-        padding: 3px 0px 0 0;
-        font-size: 14px;
-        line-height: 17px;
-        color: #FFFFFF;
-        
-        "> <span style="position: absolute;left: 5px">0</span>
+                        <div class="d-flex flex-row">
+                            <span class="dollar_isaresi">$</span>
+                            <div class="progress">
+                                <span class="bos_span">
+                                    <span style="position: absolute;left: 5px">0</span>
                                     <span style="position: relative;left:70px">622</span></span>
-                                <img src="style/mystyle/img/progress_bar.png" style="position: ;" alt="">
-                                <span style="
-    font-family: San Francisco;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    padding: 3px 0px 0 0;
-    color: #FFFFFF;
-    position: absolute;
-    right: 0px;
-    "> 1000</span>
+                                <img src="style/mystyle/img/progress_bar.png" alt="">
+                                <span class="progress_last_number"> 1000</span>
                             </div>
                         </div>
-                        <a href="# " style="
-width: 60px;
-height: 10px;
-font-family: San Francisco;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-align-items: center;
-text-align: center;
-margin-top: 10px;
-/* White */
-color: #FFFFFF;
-">Ətraflı</a>
+                        <a class="etrafli_link" href="baglamalarim.html">Ətraflı</a>
                     </div>
                 </nav>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+            <div class="col-qalan-hisse">
                 <div>
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 orders">
-                            <h3 class="xariciunvan_title ">SİFARİŞLƏRİM</h3>
-                            <button class="arxiv-button d-none ">ARXIV</button>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  xariciunvan_main">
+                            <h3 class="xariciunvan_title">SİFARİŞLƏRİM</h3>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end">
                             <button type="button" class="btn btn-primary xariciunvan_btn " data-toggle="modal"
                                 data-target="#beyanet_xariciunvan">BƏYAN ET</button>
-                            <button class="xariciunvan_btn ">SİFARİŞ ET</button>
-                            <button class="xariciunvan_btn ferqli">KURYER SİFARİŞ ET</button>
+                            <a href="sifariset.html" class="xariciunvan_btn ">SİFARİŞ ET</a>
+                            <a href="kuryersifariset.html" class="xariciunvan_btn ferqli">KURYER SİFARİŞ ET</a>
                         </div>
                     </div>
                 </div>
-                <div class="table_baglama scrolll">
+                <div class="table_baglama scrollll">
                     <table class="table table-hover">
                         <thead style="background: #EAEAEA;
                         border-radius: 8px 8px 0px 0px;">
@@ -332,7 +283,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -345,9 +297,10 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_notokey">Ödə</button>
                                 </td>
-                                <td><i data-toggle="modal" data-target="#sifaris_cedvel" class="fas fa-eye"></i>&nbsp<i
-                                        data-toggle="modal" data-target="#sifaris_redakte"
-                                        class="fas fa-pen"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img data-toggle="modal" data-target="#sifaris_cedvel"
+                                        src="style/mystyle/img/kuryereye.png">&nbsp<i data-toggle="modal"
+                                        data-target="#sifaris_redakte" class="fas fa-pen"></i>&nbsp<i
+                                        class="fas fa-trash-alt"></i></td>
 
                             </tr>
                             <tr>
@@ -360,9 +313,10 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_notokey">Ödə</button>
                                 </td>
-                                <td><i data-toggle="modal" data-target="#sifaris_cedvel" class="fas fa-eye"></i>&nbsp<i
-                                        data-toggle="modal" data-target="#sifaris_redakte"
-                                        class="fas fa-pen"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img data-toggle="modal" data-target="#sifaris_cedvel"
+                                        src="style/mystyle/img/kuryereye.png">&nbsp<i data-toggle="modal"
+                                        data-target="#sifaris_redakte" class="fas fa-pen"></i>&nbsp<i
+                                        class="fas fa-trash-alt"></i></td>
 
                             </tr>
                             <tr>
@@ -375,7 +329,7 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_notokey">Ödə</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-pen"></i>&nbsp<i
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-pen"></i>&nbsp<i
                                         class="fas fa-trash-alt"></i></td>
 
                             </tr>
@@ -389,7 +343,7 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_notokey">Ödə</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-pen"></i>&nbsp<i
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-pen"></i>&nbsp<i
                                         class="fas fa-trash-alt"></i></td>
 
                             </tr>
@@ -403,7 +357,7 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_notokey">Ödə</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-pen"></i>&nbsp<i
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-pen"></i>&nbsp<i
                                         class="fas fa-trash-alt"></i></td>
 
                             </tr>
@@ -417,7 +371,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_notokey">Ödə</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -430,7 +385,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -443,7 +399,7 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.79 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-pen"></i>&nbsp<i
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-pen"></i>&nbsp<i
                                         class="fas fa-trash-alt"></i></td>
 
                             </tr>
@@ -457,7 +413,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.89 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -470,7 +427,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.99 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -483,7 +441,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.99 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -496,7 +455,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.99 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -509,7 +469,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.99 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
                             <tr>
@@ -522,7 +483,8 @@ color: #FFFFFF;
                                 <td data-column="Ödəniləcək məbləğ" style="text-align: center;">1.99 $</td>
                                 <td data-column="Bəyannamə"><button class="baglama_okey">Ödənilib</button>
                                 </td>
-                                <td><i class="fas fa-eye"></i>&nbsp<i class="fas fa-trash-alt"></i></td>
+                                <td><img src="style/mystyle/img/kuryereye.png">&nbsp<i class="fas fa-trash-alt"></i>
+                                </td>
 
                             </tr>
 
@@ -535,37 +497,37 @@ color: #FFFFFF;
 
                 <div class="footer">
                     <div class="row">
-                        <div class="col-xl-2 ">
+                        <div class="cols ">
                             <div class="footerdiv ">
                                 <img src="style/mystyle/img/clock.png" alt="">
                                 <p>BAKU TIME: 10:13</p>
                             </div>
                         </div>
-                        <div class="col-xl-2">
+                        <div class="cols">
                             <div class="footerdiv">
                                 <img src="style/mystyle/img/clock.png" alt="">
                                 <p>ISTANBUL TIME: 10:13</p>
                             </div>
                         </div>
-                        <div class="col-xl-2">
+                        <div class="cols">
                             <div class="footerdiv">
                                 <img src="style/mystyle/img/clock.png" alt="">
                                 <p>WILMINGTON TIME: 9:12</p>
                             </div>
                         </div>
-                        <div class="col-xl-2">
+                        <div class="cols">
                             <div class="footerdiv">
                                 <img src="style/mystyle/img/clock.png" alt="">
                                 <p>FRANKFURT TIME: 9:12</p>
                             </div>
                         </div>
-                        <div class="col-xl-2">
+                        <div class="cols">
                             <div class="footerdiv">
                                 <img src="style/mystyle/img/clock.png" alt="">
                                 <p>DUBAI TIME: 11:13</p>
                             </div>
                         </div>
-                        <div class="col-xl-2">
+                        <div class="cols">
                             <div class="footerdiv">
                                 <img src="style/mystyle/img/clock.png" alt="">
                                 <p>LONDON TIME: 11:13</p>

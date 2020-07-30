@@ -164,34 +164,15 @@
             <li><a href="">Əlaqə</a></li>
         </ul>
     </div>
-    <!-- <div class="mobile-right-navbar p-3" style="display: none;" >
-    <div class="nav-line d-flex mt-2"> 
-       <img src="style/mystyle/img/bird.png">
-   </div>
-   <ul class="mx-auto">
-    <li><a href="">Xarici ünvanlarım</a></li>
-    <li><a href="">Bağlamalarım</a></li>
-    <li><a href="">Sifarişlərim</a></li>
-    <li><a href="">Kuryer sifarişlərim</a></li>
-    <li><a href="">Referal hesablar</a></li>
-    <li><a href="">Tənzimləmələr</a></li>
-    <li><a href="">Çıxış</a></li>
-    
-</ul> 
-<hr class="bottom-line">    
-</div> -->
     <div class="container xarici_unvanlar ">
         <div class="row">
-            <div class="col-lg-3 col-xl-2 private-account-nav"
-                style="background: #223F2E !important; height:700px;border-radius: 8px;width: 255px;">
-                <nav class="navbar navs navbar-expand-lg navbar-light bg-light">
-
-
+            <div class="col-yasil-nav private-account-nav">
+                <nav class="navbar navs navbar-expand-lg navbar-light bg-light" style="border-radius: 8px;">
                     <div class="collapse navbar-collapse d-flex flex-column my-top-0" id="navbarSupportedContent2"
                         style="margin-top: 400px;">
                         <h5 class="sexsi_kabinet_title beNone">ŞƏXSİ KABİNET</h5>
                         <div class="user_image beNone">
-                            <div class="img-plus"><i class="fas fa-plus  mytxtcolor"></i></div>
+                            <div class="img-plus"><img src="style/mystyle/img/add.png"></div>
                             <img src="style/mystyle/img/user.png">
                         </div>
                         <p class="sexsi_kabinet_p beNone">Name Surname</p>
@@ -208,7 +189,7 @@
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-baglm.png"></i>
-                                <a class="nav-linkk" href="baglamalarimTAMDEШL.html">Bağlamalarım</a>
+                                <a class="nav-linkk" href="baglamalarim.html">Bağlamalarım</a>
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-sifaris.png"></i>
@@ -226,395 +207,371 @@
 
                         </ul>
                         <hr class=" bottom-line">
-                        <div class="balans d-flex flex-row justify-content-between w-100">
+                        <div class="balans d-flex flex-row ">
                             <p class="money">Balans:<span>&nbsp&nbsp123</span>AZN</p>
-                            <img class="ml-4" src="style/mystyle/img/add.png" alt="">
+                            <a href="balans.html">
+                                <img class="ml-4" src="style/mystyle/img/addbalans.png" alt="">
+                            </a>
                         </div>
                         <h5 class="sexsi_kabinet_news mb-3">SON 30 GÜN</h5>
-                        <div class="d-flex flex-row" style="">
-                            <span style="
-        width: 14px;
-        height: 14px; font-family: San Francisco;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.2px;
-
-        /* White */
-        color: #FFFFFF;
-        ">$</span>
-                            <div class="progress" style=" width: 145px !important;
-        height: 26px;border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 13px;background-color: transparent;position: relative;">
-                                <span style="position: absolute;
-        font-family: San Francisco;
-        font-style: normal;
-        text-align: center;
-        font-weight: normal;
-        padding: 3px 0px 0 0;
-        font-size: 14px;
-        line-height: 17px;
-        color: #FFFFFF;
-        
-        "> <span style="position: absolute;left: 5px">0</span>
+                        <div class="d-flex flex-row">
+                            <span class="dollar_isaresi">$</span>
+                            <div class="progress">
+                                <span class="bos_span">
+                                    <span style="position: absolute;left: 5px">0</span>
                                     <span style="position: relative;left:70px">622</span></span>
-                                <img src="style/mystyle/img/progress_bar.png" style="position: ;" alt="">
-                                <span style="
-    font-family: San Francisco;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    padding: 3px 0px 0 0;
-    color: #FFFFFF;
-    position: absolute;
-    right: 0px;
-    "> 1000</span>
+                                <img src="style/mystyle/img/progress_bar.png" alt="">
+                                <span class="progress_last_number"> 1000</span>
                             </div>
                         </div>
-                        <a href="# " style="
-width: 60px;
-height: 10px;
-font-family: San Francisco;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-align-items: center;
-text-align: center;
-margin-top: 10px;
-/* White */
-color: #FFFFFF;
-">Ətraflı</a>
+                        <a class="etrafli_link" href="baglamalarim.html">Ətraflı</a>
                     </div>
                 </nav>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-10 ">
+            <div class="col-qalan-hisse">
                 <div>
-                    <div class="d-flex justify-content-between">
-                        <div class="packed">
-                            <h3 class="xariciunvan_title d-none d-sm-flex">BAĞLAMALARIM</h3>
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  xariciunvan_main">
+                            <h3 class="xariciunvan_title">BAĞLAMALARIM</h3>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end">
                             <button type="button" class="btn btn-primary xariciunvan_btn " data-toggle="modal"
                                 data-target="#beyanet_xariciunvan">BƏYAN ET</button>
-                            <button class="xariciunvan_btn ">SİFARİŞ ET</button>
-                            <button class="xariciunvan_btn ferqli">KURYER SİFARİŞ ET</button>
+                            <a href="sifariset.html" class="xariciunvan_btn ">SİFARİŞ ET</a>
+                            <a href="kuryersifariset.html" class="xariciunvan_btn ferqli">KURYER SİFARİŞ ET</a>
                         </div>
-                    </div>
-                    <!-- <div class="trayektoriya w-100 d-flex d-none">
-                            <div class="first-line"> </div>
-                            <div class="center"> </div>
-                            <div class="last"></div>
-                        </div> -->
-                    <div class="trayektoriyaa">
-                        <div class=" d-flex flex-row w-100 mobile-hide"
-                            style="margin-top:20px;justify-content: center;">
-                            <div class="custom-control custom-radio ">
-                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio1">
 
-                                </label>
+                        <div class="trayektoriyaa">
+                            <div class=" d-flex flex-row w-100 mobile-hide"
+                                style="margin-top:20px;justify-content: center;">
+                                <div class="custom-control custom-radio top_radio " style="    top: 24px;
+                                left: 66px;">
+                                    <input type="radio" id="customRadio1" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio1">
 
-                            </div>
-                            <div class="mr-5 list-main"> <input class="d-none" type="radio" name=""><img
-                                    src="style/mystyle/img/radiobnt5.png" class="mr-2"><span>Gonderilib (1)</span></div>
-                        </div>
-                        <div style="margin-top: 54px;" class="radiobutons mobile-hide">
-                            <div class="row">
-                                <div class="button-line">
-                                    <div class="first_radio d-flex flex-column">
-                                        <div class="custom-control custom-radio ">
-                                            <input type="radio" id="customRadio2" name="customRadio"
-                                                class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio2">
+                                    </label>
 
-                                            </label>
-                                            <hr class="radiobtn_hr ">
-                                        </div>
-                                        <div class=""> <input class="d-none" type="radio" name="">
-                                            <img src="style/mystyle/img/radiobnt1.png" class="mr-2"><span>Bəyan edilib
-                                                (1)</span>
-                                        </div>
-                                    </div>
                                 </div>
-                                <div class="button-line mobile-hide">
-                                    <div class="first_radio d-flex flex-column">
-                                        <div class="custom-control custom-radio ">
-                                            <input type="radio" id="customRadio3" name="customRadio"
-                                                class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio3">
-
-                                            </label>
-                                            <!-- <hr class="radiobtn_hr"> -->
-                                        </div>
-                                        <div class="" style="margin-left: -84px;"> <input class="d-none" type="radio"
-                                                name="">
-                                            <img src="style/mystyle/img/radiobnt2.png" class="mr-2"><span>Xarici
-                                                anbardadır
-                                                (1)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <img style="    margin-top: -73px;
-                                margin-left: -93px;" class="radio-images" src=" style/mystyle/img/radioimg.png">
-                                </div>
-
-                                <div class="" style="margin-left: -6px;">
-                                    <div class="first_radio d-flex flex-column">
-                                        <div class="custom-control custom-radio ">
-                                            <input type="radio" id="customRadio4" name="customRadio"
-                                                class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio4">
-
-                                            </label>
-                                            <hr class="radiobtn_hr mobile-hide">
-                                        </div>
-                                        <div class=""> <input class="d-none" type="radio" name="">
-                                            <img src="style/mystyle/img/radiobnt3.png" class="mr-2"><span>Bakı
-                                                ofisindədir (1)</span>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <div class=" first_radio d-flex flex-column">
-                                        <div class="custom-control custom-radio ">
-                                            <input type="radio" id="customRadio5" name="customRadio"
-                                                class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadio5">
-
-                                            </label>
-
-                                        </div>
-                                        <div class="" style="margin-left: -75px;"> <input class=" d-none" type="radio"
-                                                name="">
-                                            <img src="style/mystyle/img/radiobnt4.png"><span>Təhvil verilib
-                                                (1)</span>
-                                        </div>
-                                    </div>
+                                <div class="mr-5 list-main"> <input class="d-none" type="radio" name="">
+                                    <div style="margin-bottom: 7px;"><img src="style/mystyle/img/radiobnt5.png"
+                                            class="mr-2"><span>Gonderilib
+                                            (1)</span></div>
                                 </div>
                             </div>
+                            <div style="margin-top: 54px;" class="radiobutons mobile-hide">
+                                <div class="row">
+                                    <div class="button-line">
+                                        <div class="first_radio d-flex flex-column">
+                                            <div class="custom-control custom-radio ">
+                                                <input type="radio" id="customRadio2" name="customRadio"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadio2">
+
+                                                </label>
+                                                <hr class="radiobtn_hr ">
+                                            </div>
+                                            <div class=""> <input class="d-none" type="radio" name="">
+                                                <div class="mt-2">
+                                                    <img src="style/mystyle/img/radiobnt1.png" class="mr-2"><span>Bəyan
+                                                        edilib
+                                                        (1)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="button-line mobile-hide">
+                                        <div class="first_radio d-flex flex-column">
+                                            <div class="custom-control custom-radio ">
+                                                <input type="radio" id="customRadio3" name="customRadio"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadio3">
+
+                                                </label>
+                                                <!-- <hr class="radiobtn_hr"> -->
+                                            </div>
+                                            <div class="" style="margin-left: -84px;"> <input class="d-none"
+                                                    type="radio" name="">
+                                                <div class="mt-2">
+                                                    <img src="style/mystyle/img/radiobnt2.png" class="mr-2"><span>Xarici
+                                                        anbardadır
+                                                        (1)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="top-image">
+                                        <img style="    margin-top: -73px;
+                                margin-left: -84px;" class="radio-images" src=" style/mystyle/img/radioimg.png">
+                                    </div>
+
+                                    <div class="" style="margin-left: -6px;">
+                                        <div class="first_radio d-flex flex-column">
+                                            <div class="custom-control custom-radio ">
+                                                <input type="radio" id="customRadio4" name="customRadio"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadio4">
+
+                                                </label>
+                                                <hr class="radiobtn_hr mobile-hide">
+                                            </div>
+                                            <div class=""> <input class="d-none" type="radio" name="">
+                                                <div class="mt-2">
+                                                    <img src="style/mystyle/img/radiobnt3.png" class="mr-2"><span>Bakı
+                                                        ofisindədir (1)</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class=" first_radio d-flex flex-column">
+                                            <div class="custom-control custom-radio ">
+                                                <input type="radio" id="customRadio5" name="customRadio"
+                                                    class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadio5">
+
+                                                </label>
+
+                                            </div>
+                                            <div class="" style="margin-left: -75px;"> <input class=" d-none"
+                                                    type="radio" name="">
+                                                <div class="mt-2">
+                                                    <img src="style/mystyle/img/radiobnt4.png"><span>Təhvil verilib
+                                                        (1)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3 order-list">
+                            <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
+                                    class="fas fa-clipboard-list "></i><span>Bəyan edilib (1)</span></div>
+                            <div class="ml-5 mr-5 list-main"> <input class="d-none" type="radio" name=""> <i
+                                    class="fas fa-warehouse"></i><span>Xarici anbardar (1)</span></div>
+                            <div class="ml-5 mr-5 list-main"> <input class="d-none" type="radio" name=""> <i
+                                    class="fas fa-plane-departure"></i><span>Gonderilib (1)</span></div>
+                            <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
+                                    class="far fa-building"></i><span>Bakı ofisindədir (1)</span></div>
+                            <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
+                                    class="far fa-check-circle"></i><span>Təhvil verilib (1)</span></div>
                         </div>
                     </div>
-                    <div class="d-flex mt-3 order-list">
-                        <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                class="fas fa-clipboard-list "></i><span>Bəyan edilib (1)</span></div>
-                        <div class="ml-5 mr-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                class="fas fa-warehouse"></i><span>Xarici anbardar (1)</span></div>
-                        <div class="ml-5 mr-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                class="fas fa-plane-departure"></i><span>Gonderilib (1)</span></div>
-                        <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                class="far fa-building"></i><span>Bakı ofisindədir (1)</span></div>
-                        <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                class="far fa-check-circle"></i><span>Təhvil verilib (1)</span></div>
-                    </div>
-                </div>
-                <div class="table_baglama scrolll " style="height: 39% !important;">
-                    <table id="Baglama" class=" table table-hover">
-                        <thead style="
+                    <div class="table_baglama scrolll ">
+                        <table id="Baglama" class=" table table-hover">
+                            <thead style="
                             height: 44px;                            
                             background: #EAEAEA;
                             border-radius: 8px 8px 0px 0px">
-                            <tr>
-                                <th scope="col" style="text-align: left;">
-                                    <div class="custom-control custom-checkbox" style="margin-left: 7px;">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Reys</label>
-                                    </div>
-                                </th>
-                                <th scope="col" style="text-align:center">Trek Nömrə<br><span>Mağaza / İnvoys
-                                        qiyməti</span></th>
-                                <th scope="col" style="text-align:center">Çəkisi<br><span>Çatdırılma haqqı</span>
-                                </th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Ödəniş</th>
-                                <th scope="col">Bəyannamə</th>
-                                <th scope="col"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-column="Reys" scope="row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Baki-0623</label>
-                                    </div>
-                                </td>
-                                <td data-column="Trek Nömrə  Mağaza / İnvoys
+                                <tr>
+                                    <th scope="col" style="text-align: left;">
+                                        <div class="custom-control custom-checkbox" style="margin-left: 12px;">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Reys</label>
+                                        </div>
+                                    </th>
+                                    <th scope="col" style="text-align:center">Trek Nömrə<br><span>Mağaza / İnvoys
+                                            qiyməti</span></th>
+                                    <th scope="col" style="text-align:center">Çəkisi<br><span>Çatdırılma haqqı</span>
+                                    </th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Ödəniş</th>
+                                    <th scope="col">Bəyannamə</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-column="Reys" scope="row">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Baki-0623</label>
+                                        </div>
+                                    </td>
+                                    <td data-column="Trek Nömrə  Mağaza / İnvoys
                                         qiyməti" class="d-flex flex-column">25042635833679104743<br><span>Trendyol.com
-                                        (149.50
-                                        TL)</span></td>
-                                <td data-column="Cekisi                          Çatdırılma haqqı">0.3 KG<br><span>1.79
-                                        $</span></td>
-                                <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
-                                <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
-                                <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
-                                </td>
-                                <td><i data-toggle="modal" data-target="#info_baglama" class="fas fa-eye fa-2x"></i>
-                                </td>
+                                            (149.50
+                                            TL)</span></td>
+                                    <td data-column="Cekisi                          Çatdırılma haqqı">0.3
+                                        KG<br><span>1.79
+                                            $</span></td>
+                                    <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
+                                    <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
+                                    <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
+                                    </td>
+                                    <td><img src="style/mystyle/img/eye.png" data-toggle="modal"
+                                            data-target="#info_baglama"></img>
+                                    </td>
 
-                            </tr>
-                            <tr>
-                                <td data-column="Reys" scope="row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Baki-0623</label>
-                                    </div>
-                                </td>
-                                <td data-column="Trek Nömrə  Mağaza / İnvoys
+                                </tr>
+                                <tr>
+                                    <td data-column="Reys" scope="row">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Baki-0623</label>
+                                        </div>
+                                    </td>
+                                    <td data-column="Trek Nömrə  Mağaza / İnvoys
                                         qiyməti" class="d-flex flex-column">25042635833679104743<br><span>Trendyol.com
-                                        (149.50
-                                        TL)</span></td>
-                                <td data-column="Cekisi                          Çatdırılma haqqı">0.3 KG<br><span>1.79
-                                        $</span></td>
-                                <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
-                                <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
-                                <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
-                                </td>
-                                <td><i data-toggle="modal" data-target="#info_baglama" class="fas fa-eye fa-2x"></i>
-                                </td>
+                                            (149.50
+                                            TL)</span></td>
+                                    <td data-column="Cekisi                          Çatdırılma haqqı">0.3
+                                        KG<br><span>1.79
+                                            $</span></td>
+                                    <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
+                                    <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
+                                    <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
+                                    </td>
+                                    <td><img src="style/mystyle/img/eye.png" data-toggle="modal"
+                                            data-target="#info_baglama"></img>
+                                    </td>
 
-                            </tr>
-                            <tr>
-                                <td data-column="Reys" scope="row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Baki-0623</label>
-                                    </div>
-                                </td>
-                                <td data-column="Trek Nömrə  Mağaza / İnvoys
+                                </tr>
+                                <tr>
+                                    <td data-column="Reys" scope="row">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Baki-0623</label>
+                                        </div>
+                                    </td>
+                                    <td data-column="Trek Nömrə  Mağaza / İnvoys
                                         qiyməti" class="d-flex flex-column">25042635833679104743<br><span>Trendyol.com
-                                        (149.50
-                                        TL)</span></td>
-                                <td data-column="Cekisi                          Çatdırılma haqqı">0.3 KG<br><span>1.79
-                                        $</span></td>
-                                <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
-                                <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
-                                <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
-                                </td>
-                                <td><i data-toggle="modal" data-target="#info_baglama" class="fas fa-eye fa-2x"></i>
-                                </td>
+                                            (149.50
+                                            TL)</span></td>
+                                    <td data-column="Cekisi                          Çatdırılma haqqı">0.3
+                                        KG<br><span>1.79
+                                            $</span></td>
+                                    <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
+                                    <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
+                                    <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
+                                    </td>
+                                    <td><img src="style/mystyle/img/eye.png" data-toggle="modal"
+                                            data-target="#info_baglama"></img>
+                                    </td>
 
-                            </tr>
-                            <tr>
-                                <td data-column="Reys" scope="row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Baki-0623</label>
-                                    </div>
-                                </td>
-                                <td data-column="Trek Nömrə  Mağaza / İnvoys
+                                </tr>
+                                <tr>
+                                    <td data-column="Reys" scope="row">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Baki-0623</label>
+                                        </div>
+                                    </td>
+                                    <td data-column="Trek Nömrə  Mağaza / İnvoys
                                         qiyməti" class="d-flex flex-column">25042635833679104743<br><span>Trendyol.com
-                                        (149.50
-                                        TL)</span></td>
-                                <td data-column="Cekisi                          Çatdırılma haqqı">0.3 KG<br><span>1.79
-                                        $</span></td>
-                                <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
-                                <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
-                                <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
-                                </td>
-                                <td><i data-toggle="modal" data-target="#info_baglama" class="fas fa-eye fa-2x"></i>
-                                </td>
+                                            (149.50
+                                            TL)</span></td>
+                                    <td data-column="Cekisi                          Çatdırılma haqqı">0.3
+                                        KG<br><span>1.79
+                                            $</span></td>
+                                    <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
+                                    <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
+                                    <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
+                                    </td>
+                                    <td><img src="style/mystyle/img/eye.png" data-toggle="modal"
+                                            data-target="#info_baglama"></img>
+                                    </td>
 
-                            </tr>
-                            <tr>
-                                <td data-column="Reys" scope="row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Baki-0623</label>
-                                    </div>
-                                </td>
-                                <td data-column="Trek Nömrə  Mağaza / İnvoys
+                                </tr>
+                                <tr>
+                                    <td data-column="Reys" scope="row">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Baki-0623</label>
+                                        </div>
+                                    </td>
+                                    <td data-column="Trek Nömrə  Mağaza / İnvoys
                                         qiyməti" class="d-flex flex-column">25042635833679104743<br><span>Trendyol.com
-                                        (149.50
-                                        TL)</span></td>
-                                <td data-column="Cekisi                          Çatdırılma haqqı">0.3 KG<br><span>1.79
-                                        $</span></td>
-                                <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
-                                <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
-                                <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
-                                </td>
-                                <td><i data-toggle="modal" data-target="#info_baglama" class="fas fa-eye fa-2x"></i>
-                                </td>
+                                            (149.50
+                                            TL)</span></td>
+                                    <td data-column="Cekisi                          Çatdırılma haqqı">0.3
+                                        KG<br><span>1.79
+                                            $</span></td>
+                                    <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
+                                    <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
+                                    <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
+                                    </td>
+                                    <td><img src="style/mystyle/img/eye.png" data-toggle="modal"
+                                            data-target="#info_baglama"></img>
+                                    </td>
 
-                            </tr>
-                            <tr>
-                                <td data-column="Reys" scope="row">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Baki-0623</label>
-                                    </div>
-                                </td>
-                                <td data-column="Trek Nömrə  Mağaza / İnvoys
+                                </tr>
+                                <tr>
+                                    <td data-column="Reys" scope="row">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Baki-0623</label>
+                                        </div>
+                                    </td>
+                                    <td data-column="Trek Nömrə  Mağaza / İnvoys
                                         qiyməti" class="d-flex flex-column">25042635833679104743<br><span>Trendyol.com
-                                        (149.50
-                                        TL)</span></td>
-                                <td data-column="Cekisi                          Çatdırılma haqqı">0.3 KG<br><span>1.79
-                                        $</span></td>
-                                <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
-                                <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
-                                <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
-                                </td>
-                                <td><i data-toggle="modal" data-target="#info_baglama" class="fas fa-eye fa-2x"></i>
-                                </td>
+                                            (149.50
+                                            TL)</span></td>
+                                    <td data-column="Cekisi                          Çatdırılma haqqı">0.3
+                                        KG<br><span>1.79
+                                            $</span></td>
+                                    <td data-column="Status">Gömrükdə saxlanılıb<br><span>22.06.2020</span></td>
+                                    <td data-column="Ödəniş"><button class="baglama_okey">Ödənilib</button></td>
+                                    <td data-column="Bəyannamə"><button class="baglama_notokey">Bəyan et</button>
+                                    </td>
+                                    <td><img src="style/mystyle/img/eye.png" data-toggle="modal"
+                                            data-target="#info_baglama"></img>
+                                    </td>
 
-                            </tr>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                            </tbody>
+                        </table>
 
-                </div>
-                <div class="d-flex justify-content-end mb-5 mr-4">
-                    <button class="sifaris_odeniset">ÖDƏNİŞ ET</button>
-                </div>
-                <div class="footer">
-                    <div class="row">
-                        <div class="col-xl-2 ">
-                            <div class="footerdiv ">
-                                <img src="style/mystyle/img/clock.png" alt="">
-                                <p>BAKU TIME: 10:13</p>
+                    </div>
+                    <div class="d-flex justify-content-end mb-5 mr-4">
+                        <button class="sifaris_odeniset">ÖDƏNİŞ ET</button>
+                    </div>
+                    <div class="footer">
+                        <div class="row">
+                            <div class="cols ">
+                                <div class="footerdiv ">
+                                    <img src="style/mystyle/img/clock.png" alt="">
+                                    <p>BAKU TIME: 10:13</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2">
-                            <div class="footerdiv">
-                                <img src="style/mystyle/img/clock.png" alt="">
-                                <p>ISTANBUL TIME: 10:13</p>
+                            <div class="cols">
+                                <div class="footerdiv">
+                                    <img src="style/mystyle/img/clock.png" alt="">
+                                    <p>ISTANBUL TIME: 10:13</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2">
-                            <div class="footerdiv">
-                                <img src="style/mystyle/img/clock.png" alt="">
-                                <p>WILMINGTON TIME: 9:12</p>
+                            <div class="cols">
+                                <div class="footerdiv">
+                                    <img src="style/mystyle/img/clock.png" alt="">
+                                    <p>WILMINGTON TIME: 9:12</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2">
-                            <div class="footerdiv">
-                                <img src="style/mystyle/img/clock.png" alt="">
-                                <p>FRANKFURT TIME: 9:12</p>
+                            <div class="cols">
+                                <div class="footerdiv">
+                                    <img src="style/mystyle/img/clock.png" alt="">
+                                    <p>FRANKFURT TIME: 9:12</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2">
-                            <div class="footerdiv">
-                                <img src="style/mystyle/img/clock.png" alt="">
-                                <p>DUBAI TIME: 11:13</p>
+                            <div class="cols">
+                                <div class="footerdiv">
+                                    <img src="style/mystyle/img/clock.png" alt="">
+                                    <p>DUBAI TIME: 11:13</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-2">
-                            <div class="footerdiv">
-                                <img src="style/mystyle/img/clock.png" alt="">
-                                <p>LONDON TIME: 11:13</p>
+                            <div class="cols">
+                                <div class="footerdiv">
+                                    <img src="style/mystyle/img/clock.png" alt="">
+                                    <p>LONDON TIME: 11:13</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
     </div>
     <div class="modal fade" id="info_baglama" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -831,6 +788,82 @@ color: #FFFFFF;
 
                     <button type=" button" class=" qeydiyyat_btn" data-dismiss="modal">YADDA SAXLA</button>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="beyanet_xariciunvan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content xarici_unvanlar_beyan">
+                <div class="modal-header xarici_unvanlar_beyan_header">
+                    <h5 class="modal-title" id="exampleModalLabel">ÖNCƏDƏN BƏYAN ET</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="style/mystyle/img/modal-none.png" style="color: #FFFFFF;">
+                    </button>
+                </div>
+                <div class="modal-body xarici_unvanlar_beyan_modal">
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Tracking ID" placeholder="Tracking ID">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Mağazanın/saytın adı"
+                                    placeholder="Mağazanın/saytın adı">
+                            </div>
+                            <div class="form-group">
+                                <select class="custom-select">
+                                    <option selected>Kateqoriya</option>
+                                    <option>Kateqoriya</option>
+                                    <option>Kateqoriya</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Məhsulun adı" placeholder="Məhsulun adı">
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="form-control"
+                                    aria-label="Text input with segmented dropdown button">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-outline-secondary">TL</button>
+                                    <button type="button"
+                                        class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div role="separator" class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">İnvoys fayl:</label>
+                                <div class="input-group mb-3">
+
+                                    <div class="custom-file">
+                                        <label class="custom-file-label" for="inputGroupFile01">Choose File</label>
+                                        <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                            aria-describedby="inputGroupFileAddon01">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Əlavə qeyd:</label>
+                                <textarea class="form-control" id="message-text" rows="5"></textarea>
+                            </div>
+                            <button class="xarici_unvanlar_beyan_btn" type="button" class="btn btn-primary">Save
+                                changes</button>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

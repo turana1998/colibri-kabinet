@@ -1,11 +1,14 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit/Kanit-Regular.ttf);
+}
 
-
-.tables-mobile{
+.tables-mobile {
     width: 100%;
     padding: 10px;
 }
 
-.tables-mobile-container{
+.tables-mobile-container {
     font-size: 18px;
     font-family: Kanit;
     border-top-left-radius: 4px;
@@ -15,23 +18,30 @@
     margin-bottom: 15px;
 
 }
-.tables-mobile p{
+
+.tables-mobile p {
     margin: 0;
 }
-.tables-mobile .table-mobile-first{
+
+.tables-mobile .table-mobile-first {
     border-right: 1px solid #D8E0E9;
     border-bottom: 1px solid #D8E0E9;
     background: #F2F2F2;
-    padding:5px;
+    padding: 5px;
 }
-.tables-mobile .table-mobile-second{
+
+.tables-mobile .table-mobile-second {
     border-bottom: 1px solid #D8E0E9;
-    padding:5px;
+    padding: 5px;
     font-size: 14px;
 }
-.table-mobile-first p:nth-last-child(1),.table-mobile-second p:nth-last-child(1){
+
+.table-mobile-first p:nth-last-child(1),
+.table-mobile-second p:nth-last-child(1) {
     font-size: 14px;
 }
-.tables-mobile .table-mobile-first:last-child,.tables-mobile .table-mobile-second:last-child{
+
+.tables-mobile .table-mobile-first:last-child,
+.tables-mobile .table-mobile-second:last-child {
     border-bottom: 0;
 }

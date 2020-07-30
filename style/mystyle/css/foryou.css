@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/Kanit/Kanit-Regular.ttf);
+}
+
 .languages a {
     font-family: Kanit;
     font-style: normal;
