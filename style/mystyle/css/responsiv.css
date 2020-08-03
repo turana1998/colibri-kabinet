@@ -20,6 +20,7 @@
 @media(max-width:1280px) {
     .top_radio {
         top: 38px !important;
+
     }
 
     .top-image img {
@@ -72,6 +73,7 @@
         padding-right: 0;
         padding-left: 0;
         margin-right: 0px;
+        border-bottom: 1px solid #E7ECF2;
         margin-left: px;
     }
 
@@ -98,6 +100,7 @@
         padding-left: 0;
         margin-right: 0px;
         margin-left: px;
+        border-bottom: 1px solid #E7ECF2;
     }
 
     .containernav .navbar {
@@ -122,6 +125,7 @@
         padding-right: 0;
         padding-left: 0;
         margin-right: 0px;
+        border-bottom: 1px solid #E7ECF2;
         margin-left: px;
     }
 
@@ -135,6 +139,22 @@
 
 
 @media (max-width: 768px) {
+    table tbody {
+        overflow: hidden;
+        height: auto;
+        max-height: 100% !important;
+    }
+
+    #Baglama tbody {
+        overflow: hidden;
+        height: auto;
+        max-height: 100% !important;
+    }
+
+    .table_baglama {
+        height: 100%;
+    }
+
     .sifaris_redakte tr {
         margin-bottom: 0px !important;
         border: none;
@@ -289,9 +309,20 @@
 }
 
 @media only screen and (max-width:768px) {
+    #Baglama img {
+        width: 36px !important;
+        height: 36px !important;
+    }
+
     .table img {
         width: 14px;
         height: 14px;
+    }
+
+    #KuryerTable tbody {
+        display: block;
+        max-height: 100% !important;
+        overflow-y: hidden;
     }
 
     body {
@@ -370,9 +401,9 @@
 
     }
 
-    #nvbr {
+    /* #nvbr {
         z-index: 10000;
-    }
+    } */
 
     .birds h2:before,
     h2:after {
@@ -459,9 +490,7 @@
 
     }
 
-    .sifaris_odeniset {
-        margin: 0px auto;
-    }
+
 
     .order-rule {
 

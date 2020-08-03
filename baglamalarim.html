@@ -231,7 +231,7 @@
             <div class="col-qalan-hisse">
                 <div>
                     <div class="row ">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  xariciunvan_main">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  d-none d-sm-flex xariciunvan_main">
                             <h3 class="xariciunvan_title">BAĞLAMALARIM</h3>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end">
@@ -243,23 +243,39 @@
 
 
                         <div class="d-flex mt-3 order-list">
-                            <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                    class="fas fa-clipboard-list "></i><span>Bəyan edilib (1)</span></div>
-                            <div class="ml-5 mr-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                    class="fas fa-warehouse"></i><span>Xarici anbardar (1)</span></div>
-                            <div class="ml-5 mr-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                    class="fas fa-plane-departure"></i><span>Gonderilib (1)</span></div>
-                            <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                    class="far fa-building"></i><span>Bakı ofisindədir (1)</span></div>
-                            <div class="ml-5 list-main"> <input class="d-none" type="radio" name=""> <i
-                                    class="far fa-check-circle"></i><span>Təhvil verilib (1)</span></div>
+                            <div class="ml-5 list-main custom-control custom-radio"> <input type="radio"
+                                    id="customRadio11" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio11">
+                                </label><img class="ml-3" src="style/mystyle/img/radiobnt1.png"><span>Bəyan edilib
+                                    (1)</span></div>
+                            <div class="ml-5 list-main custom-control custom-radio"> <input type="radio"
+                                    id="customRadio12" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio12">
+                                </label><img class="ml-3" src="style/mystyle/img/radiobnt2.png"><span>Xarici
+                                    anbardadır(1)</span></div>
+                            <div class="ml-5 list-main custom-control custom-radio"> <input type="radio"
+                                    id="customRadio12" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio12">
+                                </label><img class="ml-3" src="style/mystyle/img/radiobnt5.png"><span>Gonderilib
+                                    (1)</span></div>
+
+                            <div class="ml-5 list-main custom-control custom-radio"> <input type="radio"
+                                    id="customRadio13" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio13">
+                                </label><img class="ml-3" src="style/mystyle/img/radiobnt3.png"><span>Bakı ofisindədir
+                                    (1)</span></div>
+                            <div class="ml-5 list-main custom-control custom-radio"> <input type="radio"
+                                    id="customRadio14" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio14">
+                                </label><img class="ml-3" src="style/mystyle/img/radiobnt4.png"><span>Təhvil verilib
+                                    (1)</span></div>
                         </div>
                     </div>
                     <div class="trayektoriyaa">
-                        <div class=" d-flex flex-row w-100 mobile-hide"
-                            style="margin-top:20px;justify-content: center;">
+                        <div class=" d-flex flex-row  mobile-hide"
+                            style="margin-top:20px;justify-content: center;width: 93%;">
                             <div class="custom-control custom-radio top_radio " style="    top: 24px;
-                                        left: 66px;">
+                                        left: 7%;">
                                 <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
                                 <label class="custom-control-label" for="customRadio1">
 
@@ -1009,13 +1025,11 @@
                             </div>
                             <div class="input-group">
                                 <input type="text" class="form-control"
-                                    aria-label="Text input with segmented dropdown button">
+                                    aria-label="Text input with segmented dropdown button" value="Invoys qiyməti">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn btn-outline-secondary">TL</button>
-                                    <button type="button"
-                                        class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span class="sr-only">Toggle Dropdown</span>
+                                    <button type="button" class="btn btn-outline-secondary tl">TL</button>
+                                    <button type="button" class="btn btn-outline-secondary arrow">
+                                        <img src="style/mystyle/img/arroww.png">
                                     </button>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Action</a>
