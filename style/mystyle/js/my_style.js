@@ -75,3 +75,11 @@ $("#right-nav").click(function () {
     $("#nav-button").addClass("fas fa-bars ml-1")
   }
 });
+// $(document).ready(function () {
+//   "use strict";
+
+//   $('.nav-linkk').click(function (e) {
+//     e.preventDefault();
+//     $(this).addClass('activenav').siblings().removeClass('activenav');
+//   });
+// });

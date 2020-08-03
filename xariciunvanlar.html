@@ -15,6 +15,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <style>
+        /* .nav-tabs-outer>ul>li {
+            display: block;
+
+        } */
+        /* 
+        .tab-pane:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .show {
+            display: flex !important;
+        } */
+    </style>
 </head>
 
 <body>
@@ -40,7 +56,7 @@
             </div>
             <div class="logo-mobile d-flex d-sm-none ml-1">
                 <a class="navbar-brand" href="#">
-                    <img class="logo" src="./style/mystyle/img/logorenpons.png" alt="Colibri" style="width: 86px;
+                    <img src="./style/mystyle/img/logorenpons.png" alt="Colibri" style="width: 86px;
                     height: 32px;">
                 </a>
             </div>
@@ -181,9 +197,9 @@
 
                         </div>
                         <ul class="navbar-nav  d-flex flex-column">
-                            <li class="nav-item active">
+                            <li class="nav-item ">
                                 <i><img src="style/mystyle/img/li-home.png"></i>
-                                <a class="nav-linkk" href="xariciunvanlar.html">Xarici ünvanlarım</a>
+                                <a class="nav-linkk activee " href="xariciunvanlar.html">Xarici ünvanlarım</a>
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-baglm.png"></i>
@@ -231,7 +247,7 @@
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  xariciunvan_main">
                         <h3 class="xariciunvan_title">XARİCİ ÜNVANLARIM</h3>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end ">
                         <button type="button" class="btn btn-primary xariciunvan_btn " data-toggle="modal"
                             data-target="#beyanet_xariciunvan">BƏYAN ET</button>
                         <a href="sifariset.html" class="xariciunvan_btn ">SİFARİŞ ET</a>
@@ -239,60 +255,13 @@
                     </div>
 
                 </div>
-                <div class="row olkeler d-none d-sm-flex">
 
-                    <div class="olke" style="object-fit: cover;" onclick="xariciunvan('turkiye',this)">
-                        <img src="style/mystyle/img/abs.png"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;">
-                        <p>Türkiyə</p>
-                    </div>
-                    <div class="olke" style="object-fit: cover;" onclick="xariciunvan('abs',this)">
-                        <img src="style/mystyle/img/abs.png"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;">
-                        <!-- <img class="olke_select_img" src="style/mystyle/img/turkiye.png">
-                        <span class="iconify genis" data-inline="false"
-                            data-icon="emojione:flag-for-us-outlying-islands"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;"></span> -->
-                        <p>ABŞ</p>
-                    </div>
-
-                    <div class="olke" style="object-fit: cover;" onclick="xariciunvan('almaniya',this)">
-                        <img src="style/mystyle/img/almaniya.png"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;">
-                        <!-- <img class="olke_select_img" src="style/mystyle/img/turkiye.png">
-                        <span class="iconify" data-inline="false" data-icon="emojione:flag-for-germany"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;"></span> -->
-
-                        <p>ALMANİYA</p>
-                    </div>
-
-
-                    <div class="olke" style="object-fit: cover;" onclick="xariciunvan('bee',this)">
-                        <img src="style/mystyle/img/bee.png"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;">
-                        <!-- <img class="olke_select_img" src="style/mystyle/img/turkiye.png">
-                        <span class="iconify" data-inline="false" data-icon="emojione:flag-for-united-arab-emirates"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;"></span> -->
-                        <p>BƏƏ</p>
-                    </div>
-
-
-                    <div class="olke" style="object-fit: cover;" onclick="xariciunvan('ingiltere',this)">
-                        <img src="style/mystyle/img/ingiltere.png"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;">
-                        <!-- <img class="olke_select_img" src="style/mystyle/img/turkiye.png">
-                        <span class="iconify" data-inline="false" data-icon="emojione:flag-for-united-kingdom"
-                            style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;"></span> -->
-                        <p>İNGİLTƏRƏ</p>
-                    </div>
-
-
-                </div>
                 <div class="row olkeler d-sm-none d-flex">
                     <a href="Turkey.html">
-                        <div class="turkiye">
-                            <img src="style/mystyle/img/turkiye.png">
-                            <p class="m-auto">Türkiyə</p>
+                        <div class="olke">
+                            <span class="iconify" data-icon="emojione-flag-for-turkey" data-inline="false"
+                                style="font-size: 24px; height: 24px; width: 24px;margin-top: 8px;"></span>
+                            <p>Türkiyə</p>
                         </div>
                     </a>
                     <div class="olke">
@@ -325,7 +294,475 @@
 
                 </div>
 
-                <div id="xariciunvan_inform">
+                <div class="nav-tabs-outer d-none d-sm-block">
+                    <div class="row olkeler nav nav-tabs js-tabs d-none d-sm-flex">
+                        <div class="olke active show" style="object-fit: cover;background:url(style/mystyle/img/turkey.png )no-repeat;background-size: 24px 24px;
+                        background-position: 20px 13px;" href="#tab1" data-toggle="tab">
+                            <p class="">Türkiyə</p>
+                        </div>
+                        <div class="olke " style="object-fit: cover;background:url(style/mystyle/img/abs.png )no-repeat;background-size: 24px 24px;
+                        background-position: 30px 13px;" href="#tab2" data-toggle="tab">
+                            <p>ABŞ</p>
+                        </div>
+
+                        <div class="olke" style="object-fit: cover;background:url(style/mystyle/img/almaniya.png )no-repeat;background-size: 24px 24px;
+                        background-position: 20px 13px;" href="#tab3" data-toggle="tab">
+                            <p>Almaniya</p>
+                        </div>
+                        <div class="olke" style="object-fit: cover;background:url(style/mystyle/img/bee.png )no-repeat;background-size: 24px 24px;
+                        background-position: 30px 13px;" href="#tab4" data-toggle="tab">
+                            <p>BƏƏ</p>
+                        </div>
+                        <div class="olke" style="object-fit: cover;background:url(style/mystyle/img/ingiltere.png )no-repeat;background-size: 24px 24px;
+                        background-position: 12px 13px;" href="#tab5" data-toggle="tab">
+                            <p>İngiltərə</p>
+                        </div>
+                    </div>
+                    <div class="tab-content ">
+                        <div class="xariciunvan_inform active show tab-pane fade in" id="tab1" role="tabpanel">
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Full name:</label>
+                                        <p class="fullname_p">Fend Nəsirov</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 1:</label>
+                                        <p class="fullname_p">320 Cornell Dr Ste C4</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">State/Province/Region:</label>
+                                        <p class="fullname_p">DE (Delaware)</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Country:</label>
+                                        <p class="fullname_p" id="xariciunvan-country">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Phone Number:</label>
+                                        <p class="fullname_p">+1 (302) 543-6067</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 2:</label>
+                                        <p class="fullname_p">C113685 COLIBRI EXPRESS</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">City:</label>
+                                        <p class="fullname_p" id="xariciunvan-city">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">ZIP Postal:</label>
+                                        <p class="fullname_p">19801-5783</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xariciunvan_inform  tab-pane fade in" id="tab2" role="tabpanel">
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Full name:</label>
+                                        <p class="fullname_p">Fend Nəsirov</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 1:</label>
+                                        <p class="fullname_p">320 Cornell Dr Ste C4</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">State/Province/Region:</label>
+                                        <p class="fullname_p">DE (Delaware)</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Country:</label>
+                                        <p class="fullname_p" id="xariciunvan-country">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Phone Number:</label>
+                                        <p class="fullname_p">+1 (302) 543-6067</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 2:</label>
+                                        <p class="fullname_p">C113685 COLIBRI EXPRESS</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">City:</label>
+                                        <p class="fullname_p" id="xariciunvan-city">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">ZIP Postal:</label>
+                                        <p class="fullname_p">19801-5783</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xariciunvan_inform  tab-pane fade in" id="tab3" role="tabpanel">
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Full name:</label>
+                                        <p class="fullname_p">Fend Nəsirov</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 1:</label>
+                                        <p class="fullname_p">320 Cornell Dr Ste C4</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">State/Province/Region:</label>
+                                        <p class="fullname_p">DE (Delaware)</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Country:</label>
+                                        <p class="fullname_p" id="xariciunvan-country">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Phone Number:</label>
+                                        <p class="fullname_p">+1 (302) 543-6067</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 2:</label>
+                                        <p class="fullname_p">C113685 COLIBRI EXPRESS</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">City:</label>
+                                        <p class="fullname_p" id="xariciunvan-city">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">ZIP Postal:</label>
+                                        <p class="fullname_p">19801-5783</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xariciunvan_inform  tab-pane fade in" id="tab4" role="tabpanel">
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Full name:</label>
+                                        <p class="fullname_p">Fend Nəsirov</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 1:</label>
+                                        <p class="fullname_p">320 Cornell Dr Ste C4</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">State/Province/Region:</label>
+                                        <p class="fullname_p">DE (Delaware)</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Country:</label>
+                                        <p class="fullname_p" id="xariciunvan-country">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Phone Number:</label>
+                                        <p class="fullname_p">+1 (302) 543-6067</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 2:</label>
+                                        <p class="fullname_p">C113685 COLIBRI EXPRESS</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">City:</label>
+                                        <p class="fullname_p" id="xariciunvan-city">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">ZIP Postal:</label>
+                                        <p class="fullname_p">19801-5783</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="xariciunvan_inform  tab-pane fade in" id="tab5" role="tabpanel">
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Full name:</label>
+                                        <p class="fullname_p">Fend Nəsirov</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 1:</label>
+                                        <p class="fullname_p">320 Cornell Dr Ste C4</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">State/Province/Region:</label>
+                                        <p class="fullname_p">DE (Delaware)</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Country:</label>
+                                        <p class="fullname_p" id="xariciunvan-country">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Phone Number:</label>
+                                        <p class="fullname_p">+1 (302) 543-6067</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">Address line 2:</label>
+                                        <p class="fullname_p">C113685 COLIBRI EXPRESS</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">City:</label>
+                                        <p class="fullname_p" id="xariciunvan-city">-</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
+                                    <div class="fullname">
+                                        <label class="fullname_label">ZIP Postal:</label>
+                                        <p class="fullname_p">19801-5783</p>
+                                    </div>
+                                    <div class="copy mt-2" style="display: none;">
+                                        <i class="fas fa-copy mr-2"></i>Copy
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="xariciunvan_inform " class="d-none">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 d-flex justify-content-between mt-2">
                             <div class="fullname">
@@ -405,6 +842,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="footer">
                     <div class="row">
                         <div class="cols ">
@@ -533,6 +972,9 @@
     <script src="./style/font_awesome/js/all.min.js"></script>
     <script src="./style/mystyle/js/my_style.js"></script>
     <script src="./style/mystyle/js/nav.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <!-- <script>
         var navbar = document.querySelector('.opacity-n')
 
@@ -553,69 +995,42 @@
         }
     </script> -->
     <script>
-        $(function () { //run when the DOM is ready
-            $(".olke").click(function () { //use a class, since your ID gets mangled
-                $(this).addClass("olke_toggle"); //add the class to the clicked element
-            });
-        });
+        // function xariciunvan(olke, a) {
 
-        function xariciunvan(olke, a) {
+        //     var divs = document.getElementsByClassName('olke');
+        //     var i;
+        //     for (i = 0; i < divs.length; i++) {
+        //         divs[i].style.background = "white";
+        //         divs[i].children[1].style.color = "#747D8C";
+        //         divs[i].children[0].style.display = "block";
+        //         divs[i].children[1].style.width = "auto";
+        //         // divs[i].children[0].style.display = "none";
+        //     }
+        //     a.style.background = "#F16136";
+        //     a.style.background = "url('style/mystyle/img/" + olke + ".png') no-repeat #F16136";
+        //     a.style.backgroundPosition = "-14px -3px"
+        //     a.style.backgroundSize = "73px 59px"
+        //     a.children[1].style.color = "white";
+        //     a.children[1].style.width = "55px";
+        //     a.children[0].style.display = "none";
+        //     // a.children[0].style.display = "block";
 
-            var divs = document.getElementsByClassName('olke');
-            var i;
-            for (i = 0; i < divs.length; i++) {
-                divs[i].style.background = "white";
-                divs[i].children[1].style.color = "#747D8C";
-                divs[i].children[0].style.display = "block";
-                divs[i].children[1].style.width = "auto";
-                // divs[i].children[0].style.display = "none";
-            }
-            a.style.background = "#F16136";
-            a.style.background = "url('style/mystyle/img/" + olke + ".png') no-repeat #F16136";
-            a.style.backgroundPosition = "-14px -3px"
-            a.style.backgroundSize = "73px 59px"
-            a.children[1].style.color = "white";
-            a.children[1].style.width = "55px";
-            a.children[0].style.display = "none";
-            // a.children[0].style.display = "block";
-            if (olke == 'turkiye') {
-                console.log("ok");
-                document.getElementById("xariciunvan_inform").style.backgroundImage =
-                    "url('style/mystyle/img/Istanbul1.png')";
-                document.getElementById("xariciunvan-country").innerHTML = "Turkiye";
-                document.getElementById("xariciunvan-city").innerHTML = "Istanbul";
-            }
-            if (olke == 'abs') {
-                console.log("ok");
-                document.getElementById("xariciunvan_inform").style.backgroundImage =
-                    "url('style/mystyle/img/Wilmington1.png')";
-                document.getElementById("xariciunvan-country").innerHTML = "ABŞ";
-                document.getElementById("xariciunvan-city").innerHTML = "Wilmington";
-            }
-            if (olke == 'ingiltere') {
-                console.log("ok");
-                document.getElementById("xariciunvan_inform").style.backgroundImage =
-                    "url('style/mystyle/img/silulet1.png')";
-                document.getElementById("xariciunvan-country").innerHTML = "İngiltərə";
-                document.getElementById("xariciunvan-city").innerHTML = "London";
 
-            }
-            if (olke == 'bee') {
-                console.log("ok");
-                document.getElementById("xariciunvan_inform").style.backgroundImage =
-                    "url('style/mystyle/img/Dubai1.png')";
-                document.getElementById("xariciunvan-country").innerHTML = "BƏƏ";
-                document.getElementById("xariciunvan-city").innerHTML = "Dubay";
-            }
-            if (olke == 'almaniya') {
-                console.log("ok");
-                document.getElementById("xariciunvan_inform").style.backgroundImage =
-                    "url('style/mystyle/img/Frankfurt1.png')";
-                document.getElementById("xariciunvan-country").innerHTML = "Almaniya";
-                document.getElementById("xariciunvan-city").innerHTML = "Frankfurt";
-            }
-        }
+
+        // }
     </script>
+    <script>
+        var current = window.location.href;
+        var current_url = current.replace(/\/$/, "");
+        $('.nav-linkk').each(function () {
+            var $this = $(this);
+            // if the current path is like this link, make it active
+            if ($this.attr('href').indexOf(current_url) !== -1) {
+                $this.addClass('activee');
+            }
+        });
+    </script>
+
 </body>
 
 </html>

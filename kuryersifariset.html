@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./style/mystyle/css/responsive-other.css">
     <link rel="stylesheet" href="./style/mystyle/css/foryou.css">
     <link rel="stylesheet" href="https://use.typekit.net/dfw0poo.css">
+    <link rel="stylesheet" href="./style/materialize/css/materializee.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
@@ -233,35 +234,48 @@
                         <h3 class="kuryer_title">KURYER SİFARİŞ ET</h3>
                         <form class=" kuryer_form">
                             <div class="row">
-                                <div class="form-group col-md-6 col-xl-6 w-100">
-                                    <!-- <label for="erazi">Ərazi</label> -->
+                                <div class="input-field col-md-6 col-xl-6 w-100 ">
+                                    <input id="erazi" type="text" class="validate">
+                                    <label for="erazi">Ərazi</label>
+                                </div>
+                                <!-- <div class="form-group col-md-6 col-xl-6 w-100">
                                     <input type="text" class=" " id="erazi" placeholder="Ərazi" style="width: 80%;">
+                                </div> -->
+                                <div class="input-field col-md-6 col-xl-6 w-100 ">
+                                    <input id="metro" type="text" class="validate">
+                                    <label for="metro">Metro</label>
                                 </div>
-                                <div class="form-group col-md-6 col-xl-6 w-100">
-                                    <!-- <label for="metro"></label> -->
+                                <!-- <div class="form-group col-md-6 col-xl-6 w-100">
                                     <input type="text" class=" w-100" id="metro" placeholder="Metro">
+                                </div> -->
+                                <div class="input-field col-xl-12 w-100 ">
+                                    <input id="unvan" type="text" class="validate">
+                                    <label for="unvan">Ünvan</label>
                                 </div>
-
-                                <div class="form-group col-xl-12 w-100">
-                                    <!-- <label for="unvan">Ünvan</label> -->
+                                <!-- <div class="form-group col-xl-12 w-100">
                                     <input class="customRadioCs w-100" type="text" class="form-control" id="unvan"
                                         placeholder="Ünvan">
+                                </div> -->
+                                <div class="input-field col-md-6 col-xl-6 w-100">
+                                    <input id="telefon" type="text" class="validate">
+                                    <label for="telefon">Telefon</label>
                                 </div>
-
-                                <div class="form-group col-md-6 col-xl-6">
-                                    <!-- <label for="tel">Telefon</label> -->
+                                <!-- <div class="form-group col-md-6 col-xl-6">
                                     <input type="text" class="customRadioCs " id="tel" placeholder="Telefon"
                                         style="width: 80%;">
+                                </div> -->
+                                <div class="input-field col-md-6 col-xl-6 w-100 ">
+                                    <input id="tarix" type="text" class="validate">
+                                    <label for="tarix">Tarix</label>
                                 </div>
-                                <div class=" form-group col-md-6 col-xl-6">
-                                    <!-- <label for="tarix">Tarix</label> -->
+                                <!-- <div class=" form-group col-md-6 col-xl-6">
                                     <input class="customRadioCs  w-100" type="text" class="form-control" id="tarix"
                                         placeholder="Tarix">
-                                </div>
+                                </div> -->
 
                             </div>
                         </form>
-                        <div class="row mt-2 mb-2">
+                        <div class="row mt-2 mb-2 catdirilma_novleri">
                             <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                                 <h3 class="kuryer_title_col6">Xaricdən çatdırılmanın ödəniş növü:</h3>
                                 <div class="custom-control custom-radio mt-4 d-flex" style="flex-direction: row;
@@ -270,10 +284,10 @@
                                         <img src="style/mystyle/img/VarlНk 1 1.png">
                                         <label for="customRadio1">Onlayn</label>
                                     </div>
-                                    <div>
-                                        <input class="customRadioCs" type="radio" id="customRadio1" name="customRadio">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                        <label class="custom-control-label" for="customCheck6"></label>
                                     </div>
-
                                 </div>
                                 <div class="custom-control custom-radio mt-4 d-flex" style="flex-direction: row;
                 justify-content: space-between;padding-left: 0 !important;width: 80%;">
@@ -281,8 +295,9 @@
                                         <img src="style/mystyle/img/VarlНk 2 1.png">
                                         <label for="customRadio2">Nəğd</label>
                                     </div>
-                                    <div>
-                                        <input class="customRadioCs" type="radio" id="customRadio2" name="customRadio">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                        <label class="custom-control-label" for="customCheck5"></label>
                                     </div>
 
                                 </div>
@@ -290,12 +305,12 @@
             justify-content: space-between;padding-left: 0 !important;width: 80%;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 3 1.png">
-                                        <label for="customRadio3">POS-Terminal vasitəsilə</label>
+                                        <label for="customRadio3">POS-Terminal </label>
                                     </div>
-                                    <div>
-                                        <input class="customRadioCs" type="radio" id="customRadio3" name="customRadio">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                        <label class="custom-control-label" for="customCheck4"></label>
                                     </div>
-
                                 </div>
 
 
@@ -307,10 +322,10 @@
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 1 1.png">
                                         <label for="customRadio4">Onlayn</label> </div>
-                                    <div>
-                                        <input type="radio" id="customRadio4" name="customRadio">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                        <label class="custom-control-label" for="customCheck3"></label>
                                     </div>
-
                                 </div>
                                 <div class="custom-control custom-radio mt-4 d-flex" style="flex-direction: row;
     justify-content: space-between;padding-left: 0 !important;">
@@ -318,8 +333,9 @@
                                         <img src="style/mystyle/img/VarlНk 2 1.png">
                                         <label for="customRadio5">Nəğd</label>
                                     </div>
-                                    <div>
-                                        <input type="radio" id="customRadio5" name="customRadio">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2"></label>
                                     </div>
 
                                 </div>
@@ -327,10 +343,11 @@
 justify-content: space-between;padding-left: 0 !important;">
                                     <div>
                                         <img src="style/mystyle/img/VarlНk 3 1.png">
-                                        <label for="customRadio6">POS-Terminal vasitəsilə </label>
+                                        <label for="customRadio6">POS-Terminal</label>
                                     </div>
-                                    <div>
-                                        <input type="radio" id="customRadio6" name="customRadio">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1"></label>
                                     </div>
 
                                 </div>
@@ -505,6 +522,8 @@ justify-content: space-between;width: 93%;">
     <script src="./style/font_awesome/js/all.min.js"></script>
     <script src="./style/mystyle/js/my_style.js"></script>
     <script src="./style/mystyle/js/nav.js"></script>
+    <script src="./style/materialize/js/materialize.js"></script>
+
 
 
 </body>

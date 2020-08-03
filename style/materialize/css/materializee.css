@@ -1,9 +1,16 @@
 .input-field {
   position: relative;
   margin-bottom: 1em;
+
 }
 
-.row .col.s12 {
+.kuryer_form .input-field {
+  position: relative;
+  margin-bottom: 1em;
+  height: 30px !important;
+}
+
+.kuryer_form .row .col.s12 {
   width: 100%;
   margin-left: auto;
   left: auto;
@@ -296,6 +303,17 @@ textarea.materialize-textarea[readonly="readonly"]+label {
   color: rgba(0, 0, 0, 0.42);
 }
 
+.kuryer_form input:not([type]),
+.kuryer_form input[type=text]:not(.browser-default) {
+  border: none;
+  border-bottom: 1px solid #C4C4C4 !important;
+}
+
+.kuryer_form input:not([type]):focus:not([readonly]),
+.kuryer_form input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border: none;
+}
+
 input:not([type]):focus:not([readonly]),
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
@@ -310,8 +328,9 @@ input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
   border: 1px solid #F16136;
-  border-top: none;
+  /* border-top : none; */
 }
+
 
 input:not([type]):focus:not([readonly])+label,
 input[type=text]:not(.browser-default):focus:not([readonly])+label,
@@ -327,7 +346,9 @@ input[type=number]:not(.browser-default):focus:not([readonly])+label,
 input[type=search]:not(.browser-default):focus:not([readonly])+label,
 textarea.materialize-textarea:focus:not([readonly])+label {
 
-  top: 10px;
+  top: 7px;
+  background-color: white;
+  width: auto;
 }
 
 input:not([type]):focus.valid~label,

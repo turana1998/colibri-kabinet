@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Kanittt';
-    src: url(../fonts/Kanit/Kanit-Regular.ttf);
+    src: url(../fonts/Kanit/Kanit-Light.ttf);
 }
 
 @media (min-width: 768px) {
@@ -124,12 +124,13 @@
 .trayektoriyaa {
     max-width: 100%;
     margin: auto;
+    padding-left: 15px;
 }
 
 
 .custom-control-input:checked~.custom-control-label::before {
+
     background-color: #F16136 !important;
-    border-color: #F16136;
 
 }
 
@@ -600,9 +601,10 @@ hr {
     align-items: center;
 }
 
+/* 
 span {
     margin-right: 9px;
-}
+} */
 
 .users {
     display: flex;
@@ -654,7 +656,7 @@ textarea {
 
     width: 154px;
     height: 14px;
-    font-family: Kanit;
+    font-family: Kanittt;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -702,7 +704,7 @@ textarea {
 
 .money {
     /* 123 AZN */
-    font-family: Kanit;
+    font-family: Kanittt;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -718,7 +720,7 @@ textarea {
     /* SON 30 GÜN */
     width: 98px;
     height: 12px;
-    font-family: Kanit;
+    font-family: Kanittt;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -735,7 +737,7 @@ textarea {
     /* Fend Nəsirov */
     width: 100%;
     height: 12px;
-    font-family: Kanit;
+    font-family: Kanittt;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -751,7 +753,7 @@ textarea {
     /* Bağlamalarım */
     width: 92px;
     height: 10px;
-    font-family: Kanit;
+    font-family: Kanittt;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -764,6 +766,11 @@ textarea {
 }
 
 .nav-linkk:hover {
+    text-decoration: none;
+    color: #F16136;
+}
+
+.activee {
     text-decoration: none;
     color: #F16136;
 }
@@ -968,6 +975,71 @@ textarea {
     background-position: -14px -3px;
 }
 
+.olke.active {
+    background-color: #F16136 !important;
+    background-image: url(../img/abs.png);
+    background-repeat: no-repeat;
+    background-position: -13px -8px !important;
+    background-size: 64px 64px !important;
+}
+
+.olke.active p {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    width: 90px !important;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.olke {
+    width: 181px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+
+
+}
+
+
+
+.olke p {
+
+    /* height: 16px; */
+    /* font-family: Kanit; */
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #747D8C;
+
+}
+
+.olke {
+    /* Rectangle 39 */
+
+    width: 181px;
+    height: 48px;
+
+    background: #FFFFFF;
+    /* Color */
+    border: 1px solid #F16136;
+    box-sizing: border-box;
+    /* S */
+    box-shadow: 0px 0px 12px rgba(241, 97, 54, 0.48);
+    border-radius: 4px;
+}
+
 .olke {
     /* Rectangle 39 */
 
@@ -1051,13 +1123,17 @@ textarea {
 
 }
 
-#xariciunvan_inform {
-    max-width: 90%;
-    margin: auto;
+.xariciunvan_inform {
+    max-width: 100%;
+    /* margin: auto; */
     margin-top: 40px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+}
+
+.xariciunvan_inform .row {
+    margin-left: 5% !important;
 }
 
 /* .xariciunvan_inform {
@@ -1120,52 +1196,51 @@ textarea {
 
 }
 
-#table_siyahi::-webkit-scrollbar {
+table::-webkit-scrollbar {
     width: 8px;
 }
 
-#table_sifaris table::-webkit-scrollbar {
+table table::-webkit-scrollbar {
     width: 8px;
 }
 
 /* Track */
-#table_siyahi::-webkit-scrollbar-track {
+table::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
 
-#table_sifaris table::-webkit-scrollbar-track {
+table::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
 
 /* Handle */
-#table_siyahi::-webkit-scrollbar-thumb {
+table::-webkit-scrollbar-thumb {
     background: #F16136;
     border-radius: 4px;
 }
 
 /* Handle on hover */
-#table_siyahi::-webkit-scrollbar-thumb:hover {
+table::-webkit-scrollbar-thumb:hover {
     background: #b30000;
 }
 
-#table_sifaris table::-webkit-scrollbar-thumb {
+table::-webkit-scrollbar-thumb {
     background: #F16136;
     border-radius: 4px;
 }
 
 /* Handle on hover */
-#table_sifaris table::-webkit-scrollbar-thumb:hover {
+table::-webkit-scrollbar-thumb:hover {
     background: #b30000;
 }
 
 .table_baglama {
     margin-top: 40px;
     border-radius: 33px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     height: 55%;
-    overflow-y: scroll;
     padding-left: 15px;
     height: 310px;
 }
@@ -1219,7 +1294,6 @@ textarea {
     margin-top: 40px;
     margin-bottom: 40px;
     height: 400px;
-    overflow-y: scroll;
 }
 
 
@@ -1263,40 +1337,40 @@ textarea {
     color: #555D69 !important;
 }
 
-.scrolll::-webkit-scrollbar {
+.tbody_table::-webkit-scrollbar {
     width: 8px;
 }
 
-.scrollll::-webkit-scrollbar {
+.tbody_table::-webkit-scrollbar {
     width: 8px;
 }
 
 /* Track */
-.scrolll::-webkit-scrollbar-track {
+.tbody_table::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
 
 /* Handle */
-.scrolll::-webkit-scrollbar-thumb {
+.tbody_table::-webkit-scrollbar-thumb {
+    height: 20px !important;
     background: #F16136;
     border-radius: 4px;
 }
 
-.scrollll::-webkit-scrollbar-track {
+.tbody_table::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
 }
 
 /* Handle */
-.scrollll::-webkit-scrollbar-thumb {
+.tbody_table::-webkit-scrollbar-thumb {
     background: #F16136;
     border-radius: 4px;
 }
 
-/* Handle on hover */
-.scrolll::-webkit-scrollbar-thumb:hover {
-    background: #b30000;
+.table {
+    width: 97% !important;
 }
 
 
@@ -1306,12 +1380,10 @@ textarea {
 
 #table_siyahi {
     margin-top: 40px;
-    margin-bottom: 40px;
-    height: 400px;
+    height: 490px;
     width: 400px;
-    overflow-y: scroll;
     padding-left: 15px;
-    overflow-x: hidden;
+    border-radius: 25px;
 }
 
 #table_sifaris {
@@ -1323,7 +1395,7 @@ textarea {
 }
 
 .tablescrool {
-    overflow-y: scroll;
+
     height: 300px;
     margin-top: 20px;
     border-radius: 25px;
@@ -1429,7 +1501,7 @@ textarea {
     font-family: Kanit !important;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 21px;
     letter-spacing: 0.2px;
 
@@ -1665,6 +1737,10 @@ textarea {
     padding-left: 15px;
 }
 
+.kuryersifarisi_secim .custom-control {
+    padding: 0 !important;
+}
+
 .kuryersifarisi_secim label {
     /* Sifariş yerləşdirildi (1) */
     height: 12px;
@@ -1727,7 +1803,7 @@ textarea {
     width: 168px;
     height: 48px;
     /* Color */
-
+    outline: none;
     border: 1px solid #F16136;
     box-sizing: border-box;
     border-radius: 4px;
@@ -1749,7 +1825,7 @@ textarea {
     width: 208px;
     height: 48px;
     /* Color */
-
+    outline: none;
     border: 1px solid #F16136;
     box-sizing: border-box;
     background-color: transparent;
@@ -2370,7 +2446,7 @@ textarea {
 .etrafli_link {
     width: 60px;
     height: 10px;
-    font-family: San Francisco;
+    font-family: Kanittt;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -2402,6 +2478,15 @@ textarea {
     box-sizing: border-box;
 }
 
+.catdirilma_novleri .custom-radio .custom-control-label::before {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #555D69;
+    box-sizing: border-box;
+    top: 0;
+}
+
 .custom-radio .custom-control-label::before {
     border-radius: 50%;
     width: 24px;
@@ -2409,4 +2494,72 @@ textarea {
     border: 2px solid #555D69;
     box-sizing: border-box;
     top: 0;
+}
+
+#tab1 {
+    background-image: url(../img/Istanbul1.png);
+    background-repeat: no-repeat;
+}
+
+#tab2 {
+    background-image: url(../img/Wilmington1.png);
+    background-repeat: no-repeat;
+}
+
+#tab3 {
+    background-image: url(../img/Frankfurt1.png);
+    background-repeat: no-repeat;
+}
+
+#tab4 {
+    background-image: url(../img/Dubai1.png);
+    background-repeat: no-repeat;
+}
+
+#tab5 {
+    background-image: url(../img/silulet1.png);
+    background-repeat: no-repeat;
+}
+
+#Baglama tbody {
+    display: block;
+    max-height: 300px !important;
+    overflow-y: scroll;
+}
+
+#balans tbody {
+    display: block;
+    max-height: 425px !important;
+    overflow-y: scroll;
+}
+
+#KuryerTable tbody {
+    display: block;
+    max-height: 450px !important;
+    overflow-y: scroll;
+}
+
+#table_sifaris tbody {
+    display: block;
+    max-height: 230px !important;
+    overflow-y: scroll;
+}
+
+#table_siyahi tbody {
+    display: block;
+    max-height: 410px !important;
+    overflow-y: scroll;
+}
+
+table tbody {
+    display: block;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+table thead,
+table tbody tr {
+    display: table;
+    width: 97%;
+    table-layout: fixed;
 }
