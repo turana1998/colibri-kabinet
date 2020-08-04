@@ -206,9 +206,9 @@
 
                         </div>
                         <ul class="navbar-nav  d-flex flex-column">
-                            <li class="nav-item ">
+                            <li class="nav-items activee ">
                                 <i><img src="style/mystyle/img/li-home.png"></i>
-                                <a class="nav-linkk activee " href="xariciunvanlar.html">Xarici ünvanlarım</a>
+                                <a class="nav-linkk  " href="xariciunvanlar.html">Xarici ünvanlarım</a>
                             </li>
                             <li class="nav-items">
                                 <i><img src="style/mystyle/img/li-baglm.png"></i>
@@ -257,7 +257,7 @@
                         <h3 class="xariciunvan_title">XARİCİ ÜNVANLARIM</h3>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end ">
-                        <button type="button" class="btn btn-primary xariciunvan_btn " data-toggle="modal"
+                        <button type="button" class=" xariciunvan_btn " data-toggle="modal"
                             data-target="#beyanet_xariciunvan">BƏYAN ET</button>
                         <a href="sifariset.html" class="xariciunvan_btn ">SİFARİŞ ET</a>
                         <a href="kuryersifariset.html" class="xariciunvan_btn ferqli">KURYER SİFARİŞ ET</a>
@@ -929,13 +929,11 @@
                             </div>
                             <div class="input-group">
                                 <input type="text" class="form-control"
-                                    aria-label="Text input with segmented dropdown button">
+                                    aria-label="Text input with segmented dropdown button" value="Invoys qiyməti">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn btn-outline-secondary">TL</button>
-                                    <button type="button"
-                                        class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span class="sr-only">Toggle Dropdown</span>
+                                    <button type="button" class="btn btn-outline-secondary tl">TL</button>
+                                    <button type="button" class="btn btn-outline-secondary arrow">
+                                        <img src="style/mystyle/img/arroww.png">
                                     </button>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Action</a>
@@ -1029,15 +1027,7 @@
         // }
     </script>
     <script>
-        var current = window.location.href;
-        var current_url = current.replace(/\/$/, "");
-        $('.nav-linkk').each(function () {
-            var $this = $(this);
-            // if the current path is like this link, make it active
-            if ($this.attr('href').indexOf(current_url) !== -1) {
-                $this.addClass('activee');
-            }
-        });
+
     </script>
 
 </body>

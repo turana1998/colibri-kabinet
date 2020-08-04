@@ -20,6 +20,7 @@
 @media(max-width:1280px) {
     .top_radio {
         top: 38px !important;
+        left: 7% !important;
 
     }
 
@@ -366,6 +367,9 @@
 }
 
 @media (min-width: 768px) {
+    .odenilecek_mebleg {
+        width: 20% !important;
+    }
 
     .ml-md-5,
     .mx-md-5 {
@@ -483,10 +487,18 @@
 
     .toplam_qiymet {
         margin-left: 15px;
-        width: 170px !important;
-        height: 50px !important;
         font-size: 14px;
         padding-bottom: 10px;
+        width: 180px;
+        height: 40px;
+        /* White */
+
+        background: #FFFFFF;
+        /* Color */
+
+        border: 2px solid #F16136;
+        box-sizing: border-box;
+        border-radius: 4px;
 
     }
 

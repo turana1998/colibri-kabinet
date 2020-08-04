@@ -131,6 +131,7 @@
 .custom-control-input:checked~.custom-control-label::before {
 
     background-color: #F16136 !important;
+    border-color: #555D69 !important;
 
 }
 
@@ -651,6 +652,7 @@ textarea {
 
 }
 
+/* 
 .nav-linkk:hover {
     text-decoration: none;
     color: #F16136;
@@ -663,6 +665,17 @@ textarea {
 
 .nav-linkk:active {
     text-decoration: none;
+    color: #F16136;
+}
+ */
+
+.nav-items>a:hover {
+    color: #F16136;
+}
+
+/*code to change background color*/
+.navbar-nav>.activee>a {
+
     color: #F16136;
 }
 
@@ -2357,6 +2370,11 @@ table::-webkit-scrollbar-thumb:hover {
     color: #FFFFFF;
 }
 
+.etrafli_link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .progress_last_number {
     font-family: San Francisco;
     font-style: normal;
@@ -2639,4 +2657,20 @@ table tbody tr {
 
 .arrow {
     border-left: none;
+}
+
+button {
+    outline: none !important;
+}
+
+* {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }

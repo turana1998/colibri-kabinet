@@ -246,7 +246,7 @@
                 <div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  xariciunvan_main">
-                            <h3 class="xariciunvan_title">BAĞLAMALARIM</h3>
+                            <h3 class="xariciunvan_title">REFERAL HESABLAR</h3>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex  btns justify-content-end">
                             <button type="button" class="btn btn-primary xariciunvan_btn " data-toggle="modal"
@@ -515,14 +515,14 @@
 
                                     <th scope="col" class="text-center">ID<br><span>Müştəri</span></th>
                                     <th class="text-center" scope="col">Reys</th>
-                                    <th class="text-center" scope="col" style="text-align:center">Trek
+                                    <th class="text-center" scope="col" style="text-align:center;width: 18%;">Trek
                                         nömrə<br><span>Mağaza / İnvoys
                                             qiyməti</span>
                                     </th>
                                     <th scope="col" class="text-center">Çəkisi<br><span>Çatdırılma haqqı</span>
                                     </th>
                                     <th class="text-center" scope="col">Status</th>
-                                    <th></th>
+                                    <th style="width: 2%;"></th>
 
                                 </tr>
                             </thead>
@@ -535,7 +535,7 @@
                                             TL)</span></td>
                                     <td class="text-center">0.3 KG<br><span>1.79 $</span></td>
                                     <td style="text-align: center;">İnvoys yüklənib</td>
-                                    <td><img src="style/mystyle/img/kuryereye.png"></i>
+                                    <td style="width: 2%;"><img src="style/mystyle/img/kuryereye.png"></i>
                                     </td>
 
 
@@ -548,7 +548,7 @@
                                             TL)</span></td>
                                     <td class="text-center">0.3 KG<br><span>1.79 $</span></td>
                                     <td style="text-align: center;">İnvoys yüklənib</td>
-                                    <td><img src="style/mystyle/img/kuryereye.png"></i>
+                                    <td style="width: 2%;"><img src="style/mystyle/img/kuryereye.png"></i>
                                     </td>
 
 
@@ -561,7 +561,7 @@
                                             TL)</span></td>
                                     <td class="text-center">0.3 KG<br><span>1.79 $</span></td>
                                     <td style="text-align: center;">İnvoys yüklənib</td>
-                                    <td><img src="style/mystyle/img/kuryereye.png"></i>
+                                    <td style="width: 2%;"><img src="style/mystyle/img/kuryereye.png"></i>
                                     </td>
 
 
@@ -574,7 +574,7 @@
                                             TL)</span></td>
                                     <td class="text-center">0.3 KG<br><span>1.79 $</span></td>
                                     <td style="text-align: center;">İnvoys yüklənib</td>
-                                    <td><img src="style/mystyle/img/kuryereye.png"></i>
+                                    <td style="width: 2%;"><img src="style/mystyle/img/kuryereye.png"></i>
                                     </td>
 
 
@@ -587,7 +587,7 @@
                                             TL)</span></td>
                                     <td class="text-center">0.3 KG<br><span>1.79 $</span></td>
                                     <td style="text-align: center;">İnvoys yüklənib</td>
-                                    <td><img src="style/mystyle/img/kuryereye.png"></i>
+                                    <td style="width: 2%;"><img src="style/mystyle/img/kuryereye.png"></i>
                                     </td>
 
 
@@ -600,7 +600,7 @@
                                             TL)</span></td>
                                     <td class="text-center">0.3 KG<br><span>1.79 $</span></td>
                                     <td style="text-align: center;">İnvoys yüklənib</td>
-                                    <td><img src="style/mystyle/img/kuryereye.png"></i>
+                                    <td style="width: 2%;"><img src="style/mystyle/img/kuryereye.png"></i>
                                     </td>
 
 
@@ -959,6 +959,12 @@
             document.getElementById("table_siyahi").style.display = "block";
             document.getElementById("table_sifaris").style.display = "none";
             document.getElementById("trayektoriya").style.display = "none";
+            document.getElementById("referaluzre").style.backgroundColor = "#F16136";
+            document.getElementById("referaluzre").style.color = "#ffffff"
+            document.getElementById("referaluzre2").style.backgroundColor = "#ffffff";
+            document.getElementById("referaluzre2").style.color = "#F16136"
+
+
 
 
         }
@@ -967,6 +973,11 @@
             document.getElementById("table_siyahi").style.display = "none";
             document.getElementById("table_sifaris").style.display = "block";
             document.getElementById("trayektoriya").style.display = "flex";
+            document.getElementById("referaluzre2").style.backgroundColor = "#F16136";
+            document.getElementById("referaluzre2").style.color = "#ffffff"
+            document.getElementById("referaluzre").style.backgroundColor = "#ffffff";
+            document.getElementById("referaluzre").style.color = "#F16136"
+
 
 
         }

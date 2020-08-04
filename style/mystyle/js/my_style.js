@@ -83,3 +83,13 @@ $("#right-nav").click(function () {
 //     $(this).addClass('activenav').siblings().removeClass('activenav');
 //   });
 // });
+$(document).ready(function () {
+
+  $('ul.navbar-nav > li')
+    .click(function (e) {
+      console.log("j");
+      $('ul.navbar-nav > li')
+        .removeClass('activee');
+      $(this).addClass('activee');
+    });
+});
